@@ -8,13 +8,17 @@ listing: posts
 knitr::opts_chunk$set(echo = FALSE)
 library(here)
 library(distill)
+library(tidyverse)
 #create_post("Post-1", draft = TRUE)
+
+library(bs4cards) # To install before
+# install.packages("devtools")
+#devtools::install_github("djnavarro/bs4cards")
 
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
 
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
+
 
 ```
 
@@ -43,3 +47,18 @@ This year the ICE/IEEE conference will be hosted virtually, on the:
 
 
 <iframe width="900" height="500" src="https://youtu.be/aSeP2n7dAR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+```{r, layout="l-page"}
+galleries %>% slice(1:3) %>% 
+  cards(
+    title = long_name,
+    text = blurb,
+    image = image_url,
+    link = gallery_url,
+    footer = paste("posted:", date)
+  )
+
+```
+

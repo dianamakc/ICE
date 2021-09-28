@@ -2,8 +2,6 @@
 title: "About this site"
 description: |
   Some additional details about the website
-  
-listing: posts
 ---
 
 ```{r setup, include=FALSE}

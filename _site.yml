@@ -1,6 +1,6 @@
 # name: "ICE"
 title: "ICE Conference 2021"
-theme: ICE.css
+theme: assets/ICE.css
 description: |
   My Website
 output_dir: "docs"
