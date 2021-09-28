@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-09-28T16:49:42+02:00"
+    },
+    {
+      "path": "index.html",
+      "title": "My Website",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\nIn the last two decades, the ICE/IEEE ITMC Conference has brought together leading academics, researchers and practitioners, contributing to the global debate on research, science and innovation. ICE Conference is one of the premier conferences associated to the IEEE Technology and Engineering Management Society (IEEE TEMS). This year, we would like to invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme:\n“Innovation, Technology, and Engineering Management for our Societal, Environmental, and Economic Resilience”\nThe 27th ICE/IEEE International Technology Management Conference is a place where research, science and innovation is called for original ideas, papers, debates, initiatives and projects. Authors, workshop / tutorial organizers, and participants are invited to contribute to the shaping of the prospective on engineering, technology and innovation solutions for industry and societal challenges.\nThis year the ICE/IEEE conference will be hosted virtually, on the:\n21st June -> 23rd June 2021\n\n\n\n\n\n",
+      "last_modified": "2021-09-28T16:49:43+02:00"
+    }
+  ],
+  "collections": []
+}
