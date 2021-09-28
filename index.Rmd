@@ -1,12 +1,14 @@
 ---
-title: "My Website"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Recent News"
 site: distill::distill_website
+listing: posts
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(here)
+library(distill)
+#create_post("Post-1", draft = TRUE)
 
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
@@ -15,6 +17,19 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
+
+
+
+```{r, layout="l-page"}
+slickR::slickR(
+    list.files("figures/banner",full.names = TRUE,pattern = 'jpeg'),
+    height = 600,
+    width = '95%')
+```
+
+
+## ICE/IAMOT Conference Nancy 2021
+
 
 In the last two decades, the ICE/IEEE ITMC Conference has brought together leading academics, researchers and practitioners, contributing to the global debate on research, science and innovation. ICE Conference is one of the premier conferences associated to the IEEE Technology and Engineering Management Society (IEEE TEMS). This year, we would like to invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme:
 

@@ -1,16 +1,21 @@
-name: "ICE"
+# name: "ICE"
 title: "ICE Conference 2021"
+theme: ICE.css
 description: |
   My Website
 output_dir: "docs"
+base_url: https://lf2l.fr/ICE/
 navbar:
+  logo:
+    image: https://www.ice-conference2021.org/wp-content/uploads/2019/07/logo_resized-e1568113160420.png
+    href: 
   right:
     - text: "Home"
       href: index.html
     - text: "Organisation"
       menu:
         - text: "Committees"
-          href: 
+          href: about.html
         - text: "Awards"
           href: 
         - text: "Sponsors"
@@ -29,9 +34,19 @@ navbar:
         - text: "Key dates"
           href: 
     - text: "Call for Papers"
+      menu:
+        - text: "Cnference Topic"
+          href: 
+    - text: "Content"
       href: 
-    - text: "Conference"
+      
+    - text: "Programme"
       href: 
-    - text: "Conference Programme"
-      href: 
+      
 output: distill::distill_article
+# output:
+#   distill::distill_article:
+#     includes:
+#       in_header: assets/header.html
+
+
