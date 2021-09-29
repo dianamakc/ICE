@@ -1,0 +1,34 @@
+---
+title: "Committe & Organization"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## General Conference Chairs
+
+- Prof. Laure Morel, Université de Lorraine, France
+
+- Prof. Mauricio Camargo, Université de Lorraine, France
+
+- Prof. Laurent Dupont, Université de Lorraine, France
+
+
+## Conference Co-Chairs
+
+Alain Zarli, R2M, France (ICE'2019 Outgoing General Chair)
+
+Marc Pallot, Arts & Métiers ParisTech, France (ICE'2019 Outgoing General Chair)
+
+Brendan Galbraith, IEEE TEMS and Zayed University, UAE
+
+David Romero, IEEE TEMS and Tecnológico de Monterrey, Mexico (Track Chair)
+
+## Local Organising Committee
+
+ERPI people to complete..
+
+...
+
+

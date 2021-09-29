@@ -24,7 +24,7 @@ library(bs4cards) # To install before
 
 
 
-```{r, layout="l-screen"}
+```{r, layout="l-page"}
 slickR::slickR(
     list.files("figures/banner",full.names = TRUE,pattern = 'jpeg'),
     height = 500,
@@ -37,7 +37,7 @@ slickR::slickR(
 
 In the last two decades, the ICE/IEEE ITMC Conference has brought together leading academics, researchers and practitioners, contributing to the global debate on research, science and innovation. ICE Conference is one of the premier conferences associated to the IEEE Technology and Engineering Management Society (IEEE TEMS). This year, we would like to invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme:
 
-“Innovation, Technology, and Engineering Management for our Societal, Environmental, and Economic Resilience”
+>Innovation, Technology, and Engineering Management for our Societal, Environmental, and Economic Resilience
 
 The 28th ICE/IEEE International Technology Management Conference is a place where research, science and innovation is called for original ideas, papers, debates, initiatives and projects. Authors, workshop / tutorial organizers, and participants are invited to contribute to the shaping of the prospective on engineering, technology and innovation solutions for industry and societal challenges.
 
@@ -50,13 +50,30 @@ This year the ICE/IEEE conference will be hosted virtually, on the:
 
 
 ```{r, layout="l-page"}
-galleries %>% slice(1:3) %>% 
+
+Cards <- 
+  tribble(
+    ~Title, ~Description, ~Image,
+    "Key Notes & Roundtables",   
+      "ICE/IEEE ITMC conference includes distinguished keynote speakers. Those keynotes will participate in our panel sessions on Innovation through the use of Immersive Technologies and Artificial Intelligence. We were able to acquire a selection of thought leading innovation managers, CEOs, scholars, politicians, and entrepreneurs in these fields.",
+    'https://www.ice-conference2021.org/wp-content/uploads/2019/09/roundtable-hxdbzxy-sstock.jpg',
+    
+    "Special Issues",   
+      "ICE/IEEE ITMC is proud to announce that outstanding papers will be invited to submit an extended version in special issues organised by prestigious international journals, with fast track selection. In addition to the possibility of submitting selected papers to these journals, there is an opportunity to interact with editors.",
+    'https://www.ice-conference2021.org/wp-content/uploads/2019/09/roundtable-hxdbzxy-sstock.jpg',
+    
+    "NITIM-Doctoral School",   
+      "As usual, a three-day doctoral school, NITIM (European graduate school on Networks, Information, Technology and Innovation Management) is offered upon the ICE conference. This focuses on topics in the areas of entrepreneurship, innovation and technology management as well as ICT technologies.",
+    'https://www.ice-conference2021.org/wp-content/uploads/2019/09/roundtable-hxdbzxy-sstock.jpg'
+  )
+
+Cards %>% 
   cards(
-    title = long_name,
-    text = blurb,
-    image = image_url,
-    link = gallery_url,
-    footer = paste("posted:", date)
+    title = Title,
+    text = Description,
+    image = Image
+    #link = gallery_url,
+    #footer = paste("Read More:", date)
   )
 
 ```
