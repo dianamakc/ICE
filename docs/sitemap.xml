@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
+    <loc>https://lf2l.fr/ICE/1-awards.html</loc>
+    <lastmod>2021-09-29T09:27:14+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lf2l.fr/ICE/1-committee.html</loc>
+    <lastmod>2021-09-29T09:25:03+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lf2l.fr/ICE/1-history.html</loc>
+    <lastmod>2021-09-29T09:28:43+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lf2l.fr/ICE/1-nitim.html</loc>
+    <lastmod>2021-09-29T09:28:19+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lf2l.fr/ICE/1-previous.html</loc>
+    <lastmod>2021-09-29T09:29:32+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lf2l.fr/ICE/1-sponsors.html</loc>
+    <lastmod>2021-09-29T09:27:38+02:00</lastmod>
+  </url>
+  <url>
     <loc>https://lf2l.fr/ICE/about.html</loc>
     <lastmod>2021-09-28T21:11:21+02:00</lastmod>
   </url>
   <url>
     <loc>https://lf2l.fr/ICE/</loc>
-    <lastmod>2021-09-29T08:22:55+02:00</lastmod>
+    <lastmod>2021-09-29T09:05:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://lf2l.fr/ICE/posts/2021-09-28-post-1/</loc>

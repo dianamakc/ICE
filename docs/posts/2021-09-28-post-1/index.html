@@ -86,7 +86,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>ICE Conference 2021: Post-1</title>
+<title>ICE / IAMOT Conference 2021: Post-1</title>
 
 <meta property="description" itemprop="description" content="A short description of the post."/>
 
@@ -98,21 +98,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="article:author" content="Nora Jones"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="ICE Conference 2021: Post-1"/>
+<meta property="og:title" content="ICE / IAMOT Conference 2021: Post-1"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="A short description of the post."/>
 <meta property="og:url" content="https://lf2l.fr/ICE/posts/2021-09-28-post-1/"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="ICE Conference 2021"/>
+<meta property="og:site_name" content="ICE / IAMOT Conference 2021"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="ICE Conference 2021: Post-1"/>
+<meta property="twitter:title" content="ICE / IAMOT Conference 2021: Post-1"/>
 <meta property="twitter:description" content="A short description of the post."/>
 <meta property="twitter:url" content="https://lf2l.fr/ICE/posts/2021-09-28-post-1/"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="ICE Conference 2021: Post-1"/>
+<meta name="citation_title" content="ICE / IAMOT Conference 2021: Post-1"/>
 <meta name="citation_fulltext_html_url" content="https://lf2l.fr/ICE/posts/2021-09-28-post-1/"/>
 <meta name="citation_online_date" content="2021/09/28"/>
 <meta name="citation_publication_date" content="2021/09/28"/>
@@ -2219,7 +2219,44 @@ nav {
 }
 
 
-@import "/assets/strapless.css";
+
+
+/*-- Changing the logo --*/
+
+.distill-site-header .logo img {
+    max-height: 200px;
+  }
+  
+
+ /* Headroom */
+
+d-title {
+  padding-top: 250px;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+
+  
+/*-- Font --*/  
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri');
+@import url('https://fonts.googleapis.com/css2?family=Bitter');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+
+html {
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    "Amiri", serif;
+  --mono-font:       "DM Mono", monospace;
+  --body-font:       "Bitter", sans-serif;
+/*--  --navbar-font:     "Amiri", serif;--*/
+}
+
+
 
 
 
@@ -7135,7 +7172,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a class="logo">
 <img src="https://www.ice-conference2021.org/wp-content/uploads/2019/07/logo_resized-e1568113160420.png" alt="Logo"/>
 </a>
-<a href="../../index.html" class="title">ICE Conference 2021</a>
+<a href="../../index.html" class="title">ICE / IAMOT Conference 2021</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
@@ -7147,12 +7184,12 @@ Organisation
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="../../about.html">Committees</a>
-<span class="nav-dropdown-header">Awards</span>
-<span class="nav-dropdown-header">Sponsors</span>
-<span class="nav-dropdown-header">NITIM</span>
-<span class="nav-dropdown-header">History</span>
-<span class="nav-dropdown-header">2021 ICE Connference</span>
+<a href="../../1-committee.html">Committees</a>
+<a href="../../1-awards.html">Awards</a>
+<a href="../../1-sponsors.html">Sponsors</a>
+<a href="../../1-nitim.html">NITIM</a>
+<a href="../../1-history.html">History</a>
+<a href="../../1-previous.html">2021 ICE Connference</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -7217,11 +7254,11 @@ Call for Papers
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Jones (2021, Sept. 28). ICE Conference 2021: Post-1. Retrieved from https://lf2l.fr/ICE/posts/2021-09-28-post-1/</pre>
+  <pre class="citation-appendix short">Jones (2021, Sept. 28). ICE / IAMOT Conference 2021: Post-1. Retrieved from https://lf2l.fr/ICE/posts/2021-09-28-post-1/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{jones2021post-1,
   author = {Jones, Nora},
-  title = {ICE Conference 2021: Post-1},
+  title = {ICE / IAMOT Conference 2021: Post-1},
   url = {https://lf2l.fr/ICE/posts/2021-09-28-post-1/},
   year = {2021}
 }</pre>

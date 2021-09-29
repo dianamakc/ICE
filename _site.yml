@@ -1,5 +1,5 @@
 # name: "ICE"
-title: "ICE Conference 2021"
+title: "ICE / IAMOT Conference 2021"
 theme: assets/ICE.css
 description: |
   My Website
@@ -15,24 +15,24 @@ navbar:
     - text: "Organisation"
       menu:
         - text: "Committees"
-          href: about.html
+          href: 1-committee.html
         - text: "Awards"
-          href: 
+          href: 1-awards.html
         - text: "Sponsors"
-          href: 
+          href: 1-sponsors.html
         - text: "NITIM"
-          href: 
+          href: 1-nitim.html
         - text: "History"
-          href: 
+          href: 1-history.html
         - text: "2021 ICE Connference"
-          href: 
+          href: 1-previous.html
           
     - text: "Conference content"
       menu:
         - text: "COnference Topic"
-          href: 
+          href: 2-topic.html
         - text: "Key dates"
-          href: 
+          href: 2-dates.html
     - text: "Call for Papers"
       menu:
         - text: "Cnference Topic"

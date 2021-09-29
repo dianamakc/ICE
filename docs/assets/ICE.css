@@ -87,7 +87,44 @@ nav {
 }
 
 
-@import "/assets/strapless.css";
+
+
+/*-- Changing the logo --*/
+
+.distill-site-header .logo img {
+    max-height: 200px;
+  }
+  
+
+ /* Headroom */
+
+d-title {
+  padding-top: 250px;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+
+  
+/*-- Font --*/  
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri');
+@import url('https://fonts.googleapis.com/css2?family=Bitter');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+
+html {
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    "Amiri", serif;
+  --mono-font:       "DM Mono", monospace;
+  --body-font:       "Bitter", sans-serif;
+/*--  --navbar-font:     "Amiri", serif;--*/
+}
+
+
 
 
 
