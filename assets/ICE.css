@@ -87,6 +87,12 @@ nav {
 }
 
 
+.distill-site-header a:hover,
+.nav-dropdown:hover .nav-dropbtn {
+  color: var(--hover-color, white);
+  border-bottom: 2px solid var(--hover-color, white);
+}
+
 
 
 /*-- Changing the logo --*/
@@ -102,11 +108,6 @@ d-title {
   padding-top: 250px;
   }
 
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
 
 
   
@@ -124,23 +125,7 @@ html {
 /*--  --navbar-font:     "Amiri", serif;--*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* @import url('https://raw.githubusercontent.com/LF2L/ICE/main/assets/strapless.css');*/
 
 *,
 *::before,
@@ -4851,5 +4836,7 @@ template {
 }
 
 /*# sourceMappingURL=strapless.css.map */
+
+
 
 

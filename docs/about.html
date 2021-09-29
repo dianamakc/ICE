@@ -2202,6 +2202,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
 
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+    border-bottom: 2px solid var(--hover-color, white);
+  }
+
 
 
   /*-- Changing the logo --*/
@@ -2217,11 +2223,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     padding-top: 250px;
     }
 
-    @media print {
-      d-title {
-        padding-top: 4rem;
-      }
-    }
 
 
     
@@ -2239,23 +2240,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*--  --navbar-font:     "Amiri", serif;--*/
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* @import url('https://raw.githubusercontent.com/LF2L/ICE/main/assets/strapless.css');*/
 
   *,
   *::before,
@@ -6967,6 +6952,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /*# sourceMappingURL=strapless.css.map */
 
+
+
   </style>
   <style type="text/css">
   /* base style */
@@ -7181,8 +7168,8 @@ Conference content
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<span class="nav-dropdown-header">COnference Topic</span>
-<span class="nav-dropdown-header">Key dates</span>
+<a href="2-topic.html">COnference Topic</a>
+<a href="2-dates.html">Key dates</a>
 </div>
 </div>
 <div class="nav-dropdown">
