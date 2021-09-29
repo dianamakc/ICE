@@ -27,8 +27,8 @@ library(bs4cards) # To install before
 ```{r, layout="l-screen"}
 slickR::slickR(
     list.files("figures/banner",full.names = TRUE,pattern = 'jpeg'),
-    height = 100,
-    width = 1300)
+    height = 500,
+    width = '100%')
 ```
 
 
@@ -46,8 +46,7 @@ This year the ICE/IEEE conference will be hosted virtually, on the:
 21st June -> 23rd June 2021
 
 
-<iframe width="900" height="500" src="https://youtu.be/aSeP2n7dAR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="900" height="500" src="https://www.youtube.com/embed/aSeP2n7dAR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ```{r, layout="l-page"}
