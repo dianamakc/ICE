@@ -37,11 +37,11 @@ navbar:
     - text: "Call for Papers"
       menu:
         - text: "Conference Theme"
-          href: 
+          href: 3-theme.html
         - text: "Paper structure"
-          href:
+          href: 3-paper.html
     - text: "Program"
-      href: 
+      href: 4-program.html
       
 output: distill::distill_article
 # output:
