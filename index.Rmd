@@ -24,11 +24,11 @@ library(bs4cards) # To install before
 
 
 
-```{r, layout="l-page"}
+```{r, layout="l-screen"}
 slickR::slickR(
     list.files("figures/banner",full.names = TRUE,pattern = 'jpeg'),
-    height = 600,
-    width = '95%')
+    height = 100,
+    width = 1300)
 ```
 
 

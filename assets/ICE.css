@@ -60,10 +60,10 @@ d-appendix {
 
 .distill-site-header {
   --title-size:       18px;
-  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-color:       black;
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --hover-color:      red;
+  --bkgd-color:       white;
 }
 
 .distill-site-footer {
@@ -75,6 +75,34 @@ d-appendix {
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
+
+
+
+.distill-site-header{
+  height: 140px;
+  padding: 50px 10px 40px 10px;
+}
+nav {
+  border-bottom: 2px solid rgba(222, 222, 222, 0.3);
+}
+
+
+@import "/assets/strapless.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 *,
@@ -4786,4 +4814,5 @@ template {
 }
 
 /*# sourceMappingURL=strapless.css.map */
+
 
