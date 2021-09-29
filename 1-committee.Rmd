@@ -1,10 +1,19 @@
 ---
 title: "Committe & Organization"
+date: "`r Sys.Date()`"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
+```{r, layout="l-screen", include=TRUE}
+knitr::include_graphics('figures/img-1.jpeg')
+```
+
+
+
 
 ## General Conference Chairs
 
