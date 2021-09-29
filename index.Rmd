@@ -32,18 +32,18 @@ slickR::slickR(
 ```
 
 
-## ICE/IAMOT Conference Nancy 2021
+## ICE/IAMOT Conference Nancy 2022
 
 
 In the last two decades, the ICE/IEEE ITMC Conference has brought together leading academics, researchers and practitioners, contributing to the global debate on research, science and innovation. ICE Conference is one of the premier conferences associated to the IEEE Technology and Engineering Management Society (IEEE TEMS). This year, we would like to invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme:
 
 “Innovation, Technology, and Engineering Management for our Societal, Environmental, and Economic Resilience”
 
-The 27th ICE/IEEE International Technology Management Conference is a place where research, science and innovation is called for original ideas, papers, debates, initiatives and projects. Authors, workshop / tutorial organizers, and participants are invited to contribute to the shaping of the prospective on engineering, technology and innovation solutions for industry and societal challenges.
+The 28th ICE/IEEE International Technology Management Conference is a place where research, science and innovation is called for original ideas, papers, debates, initiatives and projects. Authors, workshop / tutorial organizers, and participants are invited to contribute to the shaping of the prospective on engineering, technology and innovation solutions for industry and societal challenges.
 
 This year the ICE/IEEE conference will be hosted virtually, on the:
 
-21st June -> 23rd June 2021
+20st June -> 23rd June 2022
 
 
 <iframe width="900" height="500" src="https://www.youtube.com/embed/aSeP2n7dAR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
