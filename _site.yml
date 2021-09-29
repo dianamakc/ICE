@@ -1,5 +1,5 @@
-# name: "ICE"
-title: "ICE / IAMOT Conference 2021"
+# name: "ICE IAMOT"
+title: "ICE - IAMOT Conference 2022"
 theme: assets/ICE.css
 description: |
   My Website
@@ -12,7 +12,7 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Organisation"
+    - text: "Organization"
       menu:
         - text: "Committees"
           href: 1-committee.html
@@ -24,24 +24,23 @@ navbar:
           href: 1-nitim.html
         - text: "History"
           href: 1-history.html
-        - text: "2021 ICE Connference"
+        - text: "2021 ICE Conference"
           href: 1-previous.html
           
     - text: "Conference content"
       menu:
-        - text: "COnference Topic"
+        - text: "Conference Topic"
           href: 2-topic.html
         - text: "Key dates"
           href: 2-dates.html
           
     - text: "Call for Papers"
       menu:
-        - text: "Cnference Topic"
+        - text: "Conference Theme"
           href: 
-    - text: "Content"
-      href: 
-      
-    - text: "Programme"
+        - text: "Paper structure"
+          href:
+    - text: "Program"
       href: 
       
 output: distill::distill_article
