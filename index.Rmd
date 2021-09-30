@@ -44,21 +44,18 @@ In 2022, for the first time ever these two communities will work together for th
 
 This joint event will be the place where research, science and industry innovators are invited to contribute original ideas, papers, special sessions, workshops and open initiatives. We would like to kindly invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme: 
 
-::: {.hl}
-**"Technology, Engineering, and Innovation Management Communities  as Enablers for Social-Ecological Transitions"**
+::: {.hl .l-body-outset}
+**"Technology, Engineering, and Innovation Management Communities  as *Enablers for Social-Ecological Transitions*"**
 :::
 
 
 
 We are looking forward to your participation!
 
-Pr. Laure Morel, Dr Laurent Dupont & Pr. Mauricio Camargo 
-ICE-IAMOT 2022 General Chairs
 
+Pr. **Laure Morel**, Dr **Laurent Dupont** & Pr. *Mauricio Camargo*<br> 
+*ICE-IAMOT 2022 General Chairs*
 
-
-
-<iframe width="900" height="500" src="https://www.youtube.com/embed/aSeP2n7dAR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ```{r, layout="l-page"}
@@ -70,12 +67,13 @@ Cards <-
       "ICE/IEEE ITMC conference includes distinguished keynote speakers. Those keynotes will participate in our panel sessions on Innovation through the use of Immersive Technologies and Artificial Intelligence. We were able to acquire a selection of thought leading innovation managers, CEOs, scholars, politicians, and entrepreneurs in these fields.",
     'https://www.ice-conference2021.org/wp-content/uploads/2019/09/roundtable-hxdbzxy-sstock.jpg',
     
-    "Special Issues",   
-      "ICE/IEEE ITMC is proud to announce that outstanding papers will be invited to submit an extended version in special issues organised by prestigious international journals, with fast track selection. In addition to the possibility of submitting selected papers to these journals, there is an opportunity to interact with editors.",
+    "Call for Papers",   
+      "The IEEE 28th ICE/ITMC & 31st IAMOT invites high-quality papers to be presented at this premier international event. 
+Submissions should contribute to a substantial, original and previously unpublished research related to the topics of the conference. This includes theoretical research papers that provide new concepts. The paper submission ends on the 7th  February 2022. Find the Call for Paper here.",
     'https://www.ice-conference2021.org/wp-content/uploads/2019/09/roundtable-hxdbzxy-sstock.jpg',
     
     "NITIM-Doctoral School",   
-      "As usual, a three-day doctoral school, NITIM (European graduate school on Networks, Information, Technology and Innovation Management) is offered upon the ICE conference. This focuses on topics in the areas of entrepreneurship, innovation and technology management as well as ICT technologies.",
+      "The NITIM graduate school is an international PhD school that focuses on topics in the areas of entrepreneurship, innovation and technology management as well as information and communication technologies. The NITIM summer school will be co-organized this year by ICE/ITMC faculty members and the IAMOT PhD Colloquium Team. It will take place at the inspiring innovation Fab Living Lab (LF2L) of the Université de Lorraine.",
     'https://www.ice-conference2021.org/wp-content/uploads/2019/09/roundtable-hxdbzxy-sstock.jpg'
   )
 
@@ -89,4 +87,66 @@ Cards %>%
   )
 
 ```
+
+
+## Organizers
+
+The conference is hosted by the Université de Lorraine in Nancy, France, and organized by the ERPI (Research Group on Innovative processes) and the ENSGSI (Engineering School on Innovation Systems). 
+
+
+### Nancy 2022
+
+- A traditional center for science, technology and culture….
+- Capital of the Dukes of Lorraine
+- The cradle of Art Nouveau 
+- The worldwide known Place Stanislas, UNESCO monument and “the most beautiful French monument in 2021”
+- French gastronomy and local specialties
+- https://www.nancy-tourisme.fr/en/ 
+
+
+
+<iframe width="900" height="500" src="https://www.youtube.com/embed/aSeP2n7dAR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Conference themes:
+
+-	R&D, Innovation and Entrepreneurship
+-	Corporate Venturing & Digital Entrepreneurship
+-	Intrapreneurship strategy and processes
+-	Technology Foresight and Forecasting
+-	Service Design and Engineering
+-	Industry 4.0: Digital Innovation management and applications of AI
+-	Responsible research and innovation
+-	Innovation on Education and Learning
+-	Human, Socio-Economic and Culture Issues
+-	Green Tech and New business model for Sustainability and Resilience
+
+## Important Dates:
+
+
+```{r, layout="l-body-outset",  tab.cap = NULL}
+library(kableExtra)
+
+important <- 
+  tribble(
+    ~Description, ~Dates, 
+    "Full paper submission",  "7 February 2022",
+    
+    "Poster submission", "March 2022",
+    
+    "Full paper and poster notification of acceptance*", "31st March 2022",
+    
+    "Print-ready IEEE-PDF express-compliant-final papers, copy-right form", "30th April 2022"
+  )
+
+important %>%
+  kbl(caption=("Reviews are performed as soon as papers are handed in, early submissions are strongly encouraged") ) %>%
+  kable_classic(full_width = F, html_font = "Cambria") 
+  
+
+```
+
+
+If you have any constraints regarding any of the deadlines, please contact promptly the conference general chairs: ice-iamot-2022-contact@univ-lorraine.fr 
+
 
