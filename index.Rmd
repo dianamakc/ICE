@@ -124,7 +124,7 @@ The conference is hosted by the Université de Lorraine in Nancy, France, and or
 ## Important Dates:
 
 
-```{r, layout="l-body-outset",  tab.cap = NULL}
+```{r, layout="l-body-outset",}
 library(kableExtra)
 
 important <- 
@@ -140,8 +140,9 @@ important <-
   )
 
 important %>%
-  kbl(caption=("Reviews are performed as soon as papers are handed in, early submissions are strongly encouraged") ) %>%
-  kable_classic(full_width = F, html_font = "Cambria") 
+  kbl() %>%
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  footnote(general = "Reviews are performed as soon as papers are handed in, early submissions are strongly encouraged")
   
 
 ```

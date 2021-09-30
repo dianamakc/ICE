@@ -5,7 +5,10 @@ description: |
   My Website
 output_dir: "docs"
 base_url: https://lf2l.fr/ICE/
+repository_url: https://github.com/LF2L/ICE
+creative_commons: CC BY-SA
 navbar:
+  source_url: true
   logo:
     image: https://www.ice-conference2021.org/wp-content/uploads/2019/07/logo_resized-e1568113160420.png
     href: 
