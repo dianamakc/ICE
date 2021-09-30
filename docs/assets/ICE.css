@@ -108,7 +108,10 @@ d-title {
   padding-top: 250px;
   }
 
-
+div.hl {
+font-size: 150%;
+text-align: center;
+}
 
   
 /*-- Font --*/  
