@@ -10,7 +10,7 @@ creative_commons: CC BY-SA
 navbar:
   source_url: true
   logo:
-    image: https://www.ice-conference2021.org/wp-content/uploads/2019/07/logo_resized-e1568113160420.png
+    image: 'figures/logos/navbar-ice-iamot.png'
     href: 
   right:
     - text: "Home"
