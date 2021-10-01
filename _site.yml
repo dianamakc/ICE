@@ -7,11 +7,14 @@ output_dir: "docs"
 base_url: https://lf2l.fr/ICE/
 repository_url: https://github.com/LF2L/ICE
 creative_commons: CC BY-SA
+twitter:
+  site: "@rstudio"
+
 navbar:
   source_url: true
   logo:
     image: 'figures/logos/navbar-ice-iamot.png'
-    href: 
+    href: https://lf2l.fr/ICE
   right:
     - text: "Home"
       href: index.html

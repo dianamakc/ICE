@@ -74,7 +74,7 @@ Submissions should contribute to a substantial, original and previously unpublis
     
     "NITIM-Doctoral School",   
       "The NITIM graduate school is an international PhD school that focuses on topics in the areas of entrepreneurship, innovation and technology management as well as information and communication technologies. The NITIM summer school will be co-organized this year by ICE/ITMC faculty members and the IAMOT PhD Colloquium Team. It will take place at the inspiring innovation Fab Living Lab (LF2L) of the Université de Lorraine.",
-    'https://www.ice-conference2021.org/wp-content/uploads/2019/09/roundtable-hxdbzxy-sstock.jpg'
+    'Figures/cards/header.jpg'
   )
 
 Cards %>% 

@@ -6,5 +6,21 @@ title: "Awards"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## To complete
 
+
+The ICE/ IAMOT Awards :
+
+::: {.infobox .goal data-latex="{.goal}"}
+
+- to the author(s) of the best paper.
+- to the person(s) that made the best presentation.
+- to the member of the review committee for high quality reviews.
+- to the person(s) that conducted the best workshop.
+
+
+:::
+
+
+
+
+In making the awards the following criteria is used:
