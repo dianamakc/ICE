@@ -1,0 +1,31 @@
+---
+title: "Conference Theme"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The recent ecological crisis and the COVID-19 pandemic have uncovered several endemic limitations and fragilizing factors of our modern society and global economy. 
+Conversely, the increasing frequency of climate-related disasters are posing challenging problems to local and national authorities, with a potentially wider impact. It is becoming essential to comprehend ways in which socio-technical systems respond to uncertainty.  
+The latter tends to be multi-faceted and involve dynamic and time-dependent phenomena.
+
+Resilience research has mainly focussed on the capacity of a socio-technical system to absorb shocks, perturbations and stressors, and to recover to its pre-disturbance state. Innovation, Technology, and Engineering Management research is needed to progress the body of knowledge in the resilience field, to pave the way to socio-technical systems that learn and improve from their past disturbances, while continuously minimizing the recovery stage. This forms the scope and challenge of the 37th edition of the ICE conference, with a focus on:
+
+
+## Main themes of the Call-for-Papers:
+
+-	R&D, Innovation and Entrepreneurship
+-	Corporate Venturing & Digital Entrepreneurship
+-	Intrapreneurship strategy and processes
+-	Technology Foresight and Forecasting
+-	Service Design and Engineering
+-	Industry 4.0: Digital Innovation management and applications of AI
+-	Responsible research and innovation
+-	Innovation on Education and Learning
+-	Human, Socio-Economic and Culture Issues
+-	Green Tech and New business model for Sustainability and Resilience
+
+
+
+

@@ -30,20 +30,20 @@ navbar:
           href: 1-nitim.html
         - text: "History"
           href: 1-history.html
-        - text: "2021 ICE Conference"
-          href: 1-previous.html
+        # - text: "2021 ICE Conference"
+        #   href: 1-previous.html
           
     - text: "Conference content"
       menu:
-        - text: "Conference Topic"
-          href: 2-topic.html
+        - text: "Conference Theme"
+          href: 2-theme.html
         - text: "Key dates"
           href: 2-dates.html
           
     - text: "Call for Papers"
       menu:
-        - text: "Conference Theme"
-          href: 3-theme.html
+        # - text: "Conference Theme"
+        #   href: 3-theme.html
         - text: "Paper structure"
           href: 3-paper.html
     - text: "Program"

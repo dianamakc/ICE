@@ -475,7 +475,7 @@ d-title {
 
 </style>
 
-<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1882,7 +1882,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -7202,7 +7205,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Post-1","description":"A short description of the post.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-28T00:00:00.000+00:00","citationText":"Jones, 2021"}
+{"title":"Post-1","description":"A short description of the post.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-28T00:00:00.000+02:00","citationText":"Jones, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -7230,7 +7233,6 @@ Organization
 <a href="../../1-sponsors.html">Sponsors</a>
 <a href="../../1-nitim.html">NITIM</a>
 <a href="../../1-history.html">History</a>
-<a href="../../1-previous.html">2021 ICE Conference</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -7240,7 +7242,7 @@ Conference content
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="../../2-topic.html">Conference Topic</a>
+<a href="../../2-theme.html">Conference Theme</a>
 <a href="../../2-dates.html">Key dates</a>
 </div>
 </div>
@@ -7251,7 +7253,6 @@ Call for Papers
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="../../3-theme.html">Conference Theme</a>
 <a href="../../3-paper.html">Paper structure</a>
 </div>
 </div>
