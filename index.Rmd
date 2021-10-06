@@ -25,14 +25,13 @@ library(bs4cards) # To install before
 
 ```
 
-
-
-```{r, layout="l-page"}
+```{r, layout="l-screen"}
 slickR::slickR(
-    list.files("figures/banner",full.names = TRUE,pattern = 'jpeg'),
+    list.files("figures/Nancy",full.names = TRUE,pattern = 'jpeg'),
     height = 500,
     width = '100%')
 ```
+
 
 
 ## ICE/IAMOT Conference Nancy 2022
@@ -41,6 +40,8 @@ slickR::slickR(
 In 2020 and 2021 successively, two of the leading communities on Management of Technology, Engineering and Innovation organized on-line versions of their scientific conferences, showing much-needed adaptability in a pandemic situation.
  
 In 2022, for the first time ever these two communities will work together for their annual meeting, aiming to explore new ways for these technology management and innovation communities to interact and come up with innovative solutions to the critical global issues of our time.
+
+
 
 This joint event will be the place where research, science and industry innovators are invited to contribute original ideas, papers, special sessions, workshops and open initiatives. We would like to kindly invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme: 
 
