@@ -6,5 +6,45 @@ title: "History"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## To complete
+ICE is the International Conference on Engineering, Technology, and Innovation. It developed from an early focus on the engineering method of concurrent engineering, to general organization of the engineering process and its organization within the corporation and in networks. Concurrency obviously addresses parallelisation of activities in time, but it comes with the broadening of decision making on what is wanted and how services and products ought to be. This is not decided by technical criteria alone, but includes usability, economic, environmental, and social criteria. The ICE conference therefore discusses systems engineering as a socio-technical task with a focus on design of products and services, and the entrepreneurial innovation process for its adoption in society and economy.
+
+A proud history of ICE events:
+
+- ICE 1994 organized by Dr. Marc Pallot in Sophia Antipolis, France
+- ICE 1995 organized by Prof. Dr. Petri Pulli, Dr. Lars Bergman & Dr. Marc Pallot in Stockholm, Sweden
+- ICE 1996 organized by Bruno Lisanti & Roberto Santoro in Milan, Italy
+- ICE 1997 organized by Prof. Dr. Kulwant Pawar in Nottingham, UK
+- ICE 1999 organized by Kees Hof & Neil Wognum in The Hague, The Netherlands – “5 Years Anniversary"
+- ICE 2000 organized by Olivier Rérolles & Dr. Marc Pallot in Toulouse, France
+- ICE 2001 organized by Prof. Dr. Klaus-Dieter Thoben & Dr. Frithjof Weber in Bremen, Germany
+- ICE 2002 organized by Marco Conté & Roberto Santoro in Rome, Italy
+- ICE 2003 organized by Dr. Abdul Samad (Sami) Katzy in Espoo, Finland
+- ICE 2004 organized by Prof. Dr. Fernando Guerrero in Sevilla, Spain – “10 Years Anniversary"
+- ICE 2005 organized by Prof. Dr. Bernhard Katzy in Munich, Germany
+- ICE 2006 organized by Prof. Dr. Marco Taisch & Dr. Sergio Terzi in Milan, Italy
+- ICE 2007 organized by Dr. Marc Pallot, Dr. Alain Zarli & Dr. Servane Crave in Sophia Antipolis, France
+- ICE 2008 organized by Prof. Dr. Ricardo Goncalves in Lisbon, Portugal
+- ICE 2009 organized by Robert Bierwolf in Leiden, Huis Ter Duin, The Netherlands – “15 Years Anniversary"
+- ICE 2010 organized by Prof. Dr. Claudio Boer & Dr. Luca Canetta in Lugano, Switzerland
+- ICE 2011 organized by Prof. Dr. Volker Stich &  Prof. Dr. Gerhard Gudergan in Aachen, Germany
+- ICE 2012 organized by Prof. Dr. Klaus Sailer & Dr. Thomas Holzmann in Munich, Germany
+- ICE 2013 organized by Prof. Dr. Roland Ortt & Scott Cunningham in The Hague, The Netherlands
+- ICE 2014 organized by Prof. Dr. Sergio Terzi in Bergamo, Italy – “20 Years Anniversary"
+- ICE 2015 organized by Dr. Brendan Galbraith in Belfast, Northern Ireland
+- ICE 2016 organized by Prof. Dr. Pekka Abrahamsson & Dr. Kjetil Kristensen in Trondheim, Norway
+- ICE 2017 organized by Prof. Dr. Ricardo Goncalves in Madeira Island, Portugal
+- ICE 2018 organized by Marc König & Prof. Dr. Guido Baltes in Stuttgart, Germany
+- ICE 2019 organized by Dr. Marc Pallot & Dr. Alain Zarli in Sophia Antipolis, France – “ICE 25th Anniversary"
+- ICE 2020 organized by Professor Yacine Rezgui – Organised online due to COVID-19 – “ICE 25th Anniversary"
+- ICE 2021 is being organized by Prof. Yacine Rezgui in Cardiff, UK
+
+**This year ICE 2022 will take place in Nancy, France.** 
+The ICE IEEE/ITMC 2021 would like to invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme
+
+::: {.hl .l-body-outset}
+**"Technology, Engineering, and Innovation Management Communities  as *Enablers for Social-Ecological Transitions*"**
+:::
+
+
+Follow us on: @ICE_Conference
 

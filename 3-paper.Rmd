@@ -7,7 +7,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
 The $28^{th}$ ICE/IAMOT 2022 invites high-quality papers to be presented at this premier international event. Submissions should contribute to a **substantial, original and previously unpublished research in the topics of the conference**.
 
 This includes, but is not limited to:
@@ -18,6 +17,24 @@ This includes, but is not limited to:
 - Verification and validation papers that evaluate the application of solutions.
 
 The review committee is available to provide feedback on abstracts and paper ideas (submit your proposal to ice-conference2021@conftool.pro).
+
+
+## Key dates
+
+::: {.infobox .goal data-latex="{.goal}"}
+
+- Full paper submission:  *7 February 2022*
+- Poster submission: **March 2022**
+- Full paper and poster notification of acceptance:  **31st March 2022**
+- Print-ready IEEE-PDF express-compliant-final papers, copy-right form:  **30th April 2022**
+
+[**Submit your paper on ConfTool Here**]()
+:::
+
+
+
+## Paper Structure
+
 
 Papers will be selected through a double-blind refereeing process based on the submitted full papers.
 
@@ -67,24 +84,24 @@ The full paper structure we recommend is the following:
 
 **Title**
 
-– Abstract
+Abstract<br>
 1. Introduction  (Motivation, context, objectives) <br>
 2. Existing Theories & Previous Work (Literature Review) <br>
 3. Methods <br>
-   1. Presented study, Research question & Hypothesis <br>
-   1. Applied Research Methods <br>
-   1. Research Model(s) & Instrument(s) <br>
-   1. Experiment(s) (setup, sample(s), protocol, briefing of participants) <br>
+   &nbsp; 3.1 Presented study, Research question & Hypothesis <br>
+   &nbsp; 3.2. Applied Research Methods <br>
+   &nbsp; 3.3. Research Model(s) & Instrument(s) <br>
+   &nbsp; 3.4. Experiment(s) (setup, sample(s), protocol, briefing of participants) <br>
 4. Findings <br>
-  4.1 Collected data <br>
-  4.2 Analysis of collected data <br>
-  4.3 Discussion (how much this study answers to the research question and validate <br> hypothesis, validate the model and its related instrument?) <br>
+  &nbsp; 4.1 Collected data <br>
+  &nbsp; 4.2 Analysis of collected data <br>
+  &nbsp; 4.3 Discussion (how much this study answers to the research question and validate <br> hypothesis, validate the model and its related instrument?) <br>
 5.  Conclusion <br>
-  5.1 Limitations <br>
-  5.2 Concluding Remarks (sum-up the main findings and gained new knowledge as well as how <br> this study contributes to the progress in this research field) <br>
-  5.3 Future Work <br>
-- Acknowledgments <br>
-- References <br>
+  &nbsp;5.1 Limitations <br>
+  &nbsp;5.2 Concluding Remarks (sum-up the main findings and gained new knowledge as well as how <br> this study contributes to the progress in this research field) <br>
+  &nbsp; 5.3 Future Work <br>
+Acknowledgments <br>
+References <br>
 :::
 
 About the Title of your paper:
