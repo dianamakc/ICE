@@ -12,6 +12,7 @@ twitter:
 
 navbar:
   source_url: true
+  search: false
   logo:
     image: 'figures/logos/navbar-ice-iamot.png'
     href: https://lf2l.fr/ICE
