@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -454,7 +454,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1602,7 +1602,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -6915,7 +6918,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -7029,23 +7032,13 @@ Call for Papers
 <h2 id="the-prof.-bernhard-katzy-best-paper-award">The “Prof. Bernhard Katzy” Best Paper Award:</h2>
 <p>The following criteria is used for best paper:</p>
 <ul>
-<li><p>Scientific contribution</p></li>
-<li><p>Relevance in relation to practice</p></li>
-<li><p>Argumentation and evidence</p></li>
-<li><p>Scope of the paper regarding the conference</p></li>
-<li><p>Typography and aesthetics</p></li>
-<li><p>Award (2020) – Galvez, Camargo &amp; Schmit. Analysis of SMEs’ Innovation Capability: Towards a Taxonomic Approach based on Internal and Contextual Factors</p></li>
-<li><p>Award (2019) – Sasaoka, K.; Takahashi, H.; Minami, Y. (2019) “The Development of a Restroom Car for Women Staffs on Expressway site”. Proceedings 25th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2018) – Tobias Sebastian Schmidt, Bundeswehr University Munich</p></li>
-<li><p>Award (2017) – Krawczyk, P.; Topolewski, M.; Pallot, M.: “Towards Reliable and Valid Mixed Methods Instrument in User eXperience Studies”. Proceedings 23nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2017) – Bach, J.; Langner, J.; Otten, S.; Holzapfel, M.; Sax, E. – “Test Scenario Selection for System-Level Verification and Validation of Geolocation-Dependent Automotive Control Systems”. Proceedings 23nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2016) – Wang, B.; Subramanian, A.M.; Chai, K-H.: “Technological Diversity and Firm Performance: The Role of Knowledge Base Homogeneity”. Proceedings 22nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2015) – Michelino, F.; Lamberti, E.; Cammarano, A.; Caputo, M.: “Dyadic Collaborations and Knowledge Domains: A Patent-based Approach”. Proceedings 21st International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2014) – Osorio, J.; Romero, D.; Betancur, M.B.; Molina, A.: “Design for Sustainable Mass-Customization: Design Guidelines for Sustainable Mass-Customized Products”. Proceedings 20th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2013) – Stettina, C.J.; Kroon, E.: “Is there an Agile Handover? An Empirical Study of Documentation and Project Handover Practices Across Agile Software Teams”. Proceedings 19th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2012) – Christidis, K.; Apostolou D.; Mentzas, G.: Our paper “A Socially Intelligent Approach for Enterprise Information Search and Recommendation”. Proceedings 18th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
-<li><p>Award (2011) – Song, J.Y., Kracheel, M.; Ziegier, G.; Moser, H.A.: “Critical Interaction Instances in Collaborative Concurrent Engineering”. Proceedings 17th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p></li>
+<li>Scientific contribution</li>
+<li>Relevance in relation to practice</li>
+<li>Argumentation and evidence</li>
+<li>Scope of the paper regarding the conference</li>
+<li>Typography and aesthetics</li>
 </ul>
+<p>Past winners of this award: - Award (2020) – Galvez, Camargo &amp; Schmit. Analysis of SMEs’ Innovation Capability: Towards a Taxonomic Approach based on Internal and Contextual Factors - Award (2019) – Sasaoka, K.; Takahashi, H.; Minami, Y. (2019) “The Development of a Restroom Car for Women Staffs on Expressway site”. Proceedings 25th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2018) – Tobias Sebastian Schmidt, Bundeswehr University Munich - Award (2017) – Krawczyk, P.; Topolewski, M.; Pallot, M.: “Towards Reliable and Valid Mixed Methods Instrument in User eXperience Studies”. Proceedings 23nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2017) – Bach, J.; Langner, J.; Otten, S.; Holzapfel, M.; Sax, E. – “Test Scenario Selection for System-Level Verification and Validation of Geolocation-Dependent Automotive Control Systems”. Proceedings 23nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2016) – Wang, B.; Subramanian, A.M.; Chai, K-H.: “Technological Diversity and Firm Performance: The Role of Knowledge Base Homogeneity”. Proceedings 22nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2015) – Michelino, F.; Lamberti, E.; Cammarano, A.; Caputo, M.: “Dyadic Collaborations and Knowledge Domains: A Patent-based Approach”. Proceedings 21st International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2014) – Osorio, J.; Romero, D.; Betancur, M.B.; Molina, A.: “Design for Sustainable Mass-Customization: Design Guidelines for Sustainable Mass-Customized Products”. Proceedings 20th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2013) – Stettina, C.J.; Kroon, E.: “Is there an Agile Handover? An Empirical Study of Documentation and Project Handover Practices Across Agile Software Teams”. Proceedings 19th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2012) – Christidis, K.; Apostolou D.; Mentzas, G.: Our paper “A Socially Intelligent Approach for Enterprise Information Search and Recommendation”. Proceedings 18th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE). - Award (2011) – Song, J.Y., Kracheel, M.; Ziegier, G.; Moser, H.A.: “Critical Interaction Instances in Collaborative Concurrent Engineering”. Proceedings 17th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).</p>
 <p>This awards is in memory of the recognition for Professor Dr. <strong><em>Bernhard R. Katzy (1962-2015) contributions to the ICE Community</em></strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <h2 id="the-best-presentation-award">The Best Presentation Award:</h2>
 <ul>
