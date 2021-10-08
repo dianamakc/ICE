@@ -4,9 +4,6 @@ site: distill::distill_website
 listing: posts
 ---
 
-
-
-
 ```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(here)
@@ -33,22 +30,51 @@ slickR::slickR(
 ```
 
 
+::: {.hl .l-body-outset}
+<h2>Technology, Engineering, and Innovation Management Communities as Enablers for Social-Ecological Transitions</h2>
+:::
 
-## $28^{th}$ ICE/ITMC & $31^{st}$ IAMOT Conference IEEE 2022 
 
 
 In 2020 and 2021 successively, two of the leading communities on Management of Technology, Engineering and Innovation organized on-line versions of their scientific conferences, showing much-needed adaptability in a pandemic situation.
  
-In 2022, **for the first time ever these two communities will work together for their annual meeting**, aiming to explore new ways for these technology management and innovation communities to interact and come up with innovative solutions to the critical global issues of our time.
+In 2022, **for the first time ever these two communities will work together for $28^{th}$ ICE/ITMC & $31^{st}$ IAMOT Conference IEEE 2022**, aiming to explore new ways for these technology management and innovation communities to interact and come up with innovative solutions to the critical global issues of our time.
 
 
+
+```{r, layout="l-body"}
+
+Cards <- 
+  tribble(
+    ~Title, ~Description, ~Image,~Link,
+    "ICE Community",   
+      "It is the International Conference on Engineering, Technology, and Innovation. It developed from an early focus on the engineering method of concurrent engineering, to general organization of the engineering process and its organization within the corporation and in networks.",
+    'Figures/logos/Cards-ICE.jpg',
+    "https://ice-iamot-2022-conference.org/1-history.html",
+    
+    "IAMOT Community",   
+      "The International Association for Management of Technology (IAMOT). IAMOT is a non-governmental, non-profit organization incorporated in 1992 in the State of Florida, USA. Its purpose is to encourage high quality research and education in the field of management of technology (MOT).",
+    'Figures/logos/Cards-Iamot.jpg',
+  'http://www.iamot.com/'
+  )
+
+Cards %>% 
+  cards(
+    header = Title,
+    text = Description,
+    image = Image,
+    link = Link,
+    #footer = paste("Read more:", Link),
+    width = "row-cols-2"
+  )
+
+
+
+```
 
 
 This joint event will be the place where research, science and industry innovators are invited to contribute original ideas, papers, special sessions, workshops and open initiatives. We would like to kindly invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme: 
 
-::: {.hl .l-body-outset}
-**"Technology, Engineering, and Innovation Management Communities  as *Enablers for Social-Ecological Transitions*"**
-:::
 
 
 
@@ -104,14 +130,7 @@ Systems)](https://www.ensgsi.univ-lorraine.fr/) and the [ERPI (Research Group on
 Materials, Product, Process – [EMPP research
 department](https://empp.univ-lorraine.fr/en/the-research-department/) and [Institut Carnot ICEEL](https://iceel.eu/en/))
 
-### Nancy 2022
-
-- A traditional center for science, technology and culture….
-- Capital of the Dukes of Lorraine
-- The cradle of Art Nouveau 
-- The worldwide known Place Stanislas, UNESCO monument and “the most beautiful French monument in 2021”
-- French gastronomy and local specialties
-- https://www.nancy-tourisme.fr/en/ 
+### Nancy, France 
 
 
 <iframe width="900" height="500" src="https://www.youtube.com/embed/7dcUm6ujMJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

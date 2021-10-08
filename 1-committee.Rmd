@@ -20,7 +20,7 @@ knitr::include_graphics('figures/banner/Committe.jpeg')
 
 - Prof. Mauricio Camargo, Université de Lorraine, France
 
-- Prof. Laurent Dupont, Université de Lorraine, France
+- Dr. Laurent Dupont, Université de Lorraine, France
 
 
 ## Conference Co-Chairs

@@ -1,10 +1,20 @@
 ---
-title: "Program of the Conference"
+title: "Venue to Nancy"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## To complete
+
+
+- A traditional center for science, technology and culture.
+- Capital of the Dukes of Lorraine
+- The cradle of Art Nouveau. 
+- The worldwide known Place Stanislas, UNESCO monument and “the most beautiful French monument in 2021”
+- French gastronomy and local specialties
+
+```{r, layout="l-body", fig.cap="More information: https://www.nancy-tourisme.fr/en/ ", out.extra="class=external"}
+knitr::include_graphics("figures/visit-nancy/Nancy-02.jpg")
+```
 
