@@ -2,17 +2,18 @@
 title: "Awards"
 output:
   distill::distill_article:
+    includes:
+        in_header: assets/awards.html
     toc: true
     toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-
-The ICE/ IAMOT Awards :
+The ICE/ IAMOT Awards:
 
 ::: {.infobox .goal data-latex="{.goal}"}
 - to the author(s) of the best paper.
@@ -35,9 +36,9 @@ The following criteria is used for best paper:
 
 Past winners of this award:
 
-- Award (2020) – Galvez, Camargo & Schmit. Analysis of SMEs’ Innovation Capability: Towards a Taxonomic Approach based on Internal and Contextual Factors
+- Award (2020) – Galvez, Camargo & Schmit. Analysis of SMEs’ Innovation Capability: Towards a Taxonomic Approach based on Internal and Contextual Factors.
 - Award (2019) – Sasaoka, K.; Takahashi, H.; Minami, Y. (2019) “The Development of a Restroom Car for Women Staffs on Expressway site". Proceedings 25th International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).
-- Award (2018) – Tobias Sebastian Schmidt, Bundeswehr University Munich
+- Award (2018) – Tobias Sebastian Schmidt, Bundeswehr University Munich.
 - Award (2017) – Krawczyk, P.; Topolewski, M.; Pallot, M.: “Towards Reliable and Valid Mixed Methods Instrument in User eXperience Studies”. Proceedings 23nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).
 - Award (2017) – Bach, J.; Langner, J.; Otten, S.; Holzapfel, M.; Sax, E. – “Test Scenario Selection for System-Level Verification and Validation of Geolocation-Dependent Automotive Control Systems". Proceedings 23nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).
 - Award (2016) – Wang, B.; Subramanian, A.M.; Chai, K-H.: “Technological Diversity and Firm Performance: The Role of Knowledge Base Homogeneity". Proceedings 22nd International ICE-IEEE ITMC Conference on Engineering, Technology and Innovation (ICE).

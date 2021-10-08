@@ -1,16 +1,18 @@
 ---
 title: "Committe & Organization"
 date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/comitte.html
+#    toc: true
+#    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-
-```{r, layout="l-screen", include=TRUE}
-knitr::include_graphics('figures/banner/Committe.jpeg')
-```
 
 
 
@@ -23,12 +25,10 @@ knitr::include_graphics('figures/banner/Committe.jpeg')
 
 ## Conference Co-Chairs
 
-Alain Zarli, R2M, France (ICE'2019 Outgoing General Chair)
-Marc Pallot, Arts & Métiers ParisTech, France (ICE'2019 Outgoing General Chair)
-
-Brendan Galbraith, IEEE TEMS and Zayed University, UAE
-
-David Romero, IEEE TEMS and Tecnológico de Monterrey, Mexico (Track Chair)
+- Alain Zarli, R2M, France 
+- Marc Pallot, Arts & Métiers ParisTech, France 
+- Brendan Galbraith, IEEE TEMS and Zayed University, UAE
+- David Romero, IEEE TEMS and Tecnológico de Monterrey, Mexico
 
 ## Local Organising Committee
 

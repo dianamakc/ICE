@@ -30,7 +30,7 @@ slickR::slickR(
 ```
 
 
-::: {.hl .l-page}
+::: {.hl .l-page .d-title-index}
 <h2>Technology, Engineering, and Innovation Management Communities <br>as Enablers for Social-Ecological Transitions</h2>
 :::
 

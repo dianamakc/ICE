@@ -1,5 +1,9 @@
 ---
 title: "Venue to Nancy"
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/nancy.html
 ---
 
 ```{r setup, include=FALSE}

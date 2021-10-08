@@ -1,5 +1,9 @@
 ---
 title: "Key dates"
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/dates.html
 ---
 
 ```{r setup, include=FALSE}

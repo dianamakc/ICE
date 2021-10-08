@@ -1,5 +1,9 @@
 ---
 title: "History"
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/history.html
 ---
 
 ```{r setup, include=FALSE}

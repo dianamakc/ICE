@@ -1,5 +1,9 @@
 ---
 title: "Conference Theme"
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/theme.html
 ---
 
 ```{r setup, include=FALSE}

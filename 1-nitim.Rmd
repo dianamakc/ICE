@@ -1,5 +1,9 @@
 ---
-title: "NITIM"
+title: "Concept"
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/nitim.html
 ---
 
 ```{r setup, include=FALSE}
@@ -7,11 +11,6 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-```{r, layout="l-body", include=TRUE}
-knitr::include_graphics('figures/nitim/nitim.png')
-```
-
-## Concept
 
 This Summer School is organized once a year in cooperation with the ICE/IEEE ITMC Conference and thus takes place at changing locations – e.g. 2016 in Trondheim (Norway), 2017 in Madeira (Portugal) and 2018 in
 Konstanz (Germany). In 2019 in Nice, France.

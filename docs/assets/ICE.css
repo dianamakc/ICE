@@ -101,7 +101,7 @@ nav {
 
  /* Headroom */
 
-d-title {
+d-title-index {
   padding-top: 250px;
   }
 
@@ -136,6 +136,17 @@ d-article a {
     background-image: linear-gradient(180deg, transparent 85%, #25c6fe 0);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+
+.article-banner {
+  width: auto;
+  height: auto;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+  
 }
 
 
