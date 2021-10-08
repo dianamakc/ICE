@@ -38,7 +38,7 @@ navbar:
       menu:
         - text: "Conference Theme"
           href: 2-theme.html
-        - text: "Key dates"
+        - text: "Registration & Key dates"
           href: 2-dates.html
           
     - text: "Call for Papers"
