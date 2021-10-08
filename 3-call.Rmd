@@ -1,13 +1,18 @@
 ---
-title: "Paper Structure"
+title: "Call for Paper"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, layout="l-screen", include=TRUE}
+knitr::include_graphics('figures/call/call-paper.png')
 ```
 
 
-The $28^{th}$ ICE/IAMOT 2022 invites high-quality papers to be presented at this premier international event. Submissions should contribute to a **substantial, original and previously unpublished research in the topics of the conference**.
+
+The $28^{th}$ ICE/ITMC & $31^{st}$ IAMOT Conference IEEE 2022 invites high-quality papers to be presented at this premier international event. Submissions should contribute to a **substantial, original and previously unpublished research in the topics of the conference**.
 
 This includes, but is not limited to:
 

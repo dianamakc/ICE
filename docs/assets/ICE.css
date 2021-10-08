@@ -110,14 +110,19 @@ font-size: 150%;
 text-align: center;
 }
 
-
+/*-- Margin Font --*/  
 
 d-article li {
     margin-bottom: 0;
     margin-left: 1rem;
     padding-left: 0;
 }
-  
+
+d-article h2 {
+    margin: 2.5rem 0 1rem 0;
+}
+
+
 /*-- Font --*/  
 
 @import url('https://fonts.googleapis.com/css2?family=Amiri');

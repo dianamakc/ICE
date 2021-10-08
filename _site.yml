@@ -46,7 +46,7 @@ navbar:
         # - text: "Conference Theme"
         #   href: 3-theme.html
         - text: "Paper structure"
-          href: 3-paper.html
+          href: 3-call.html
     - text: "Program"
       href: 4-program.html
       
