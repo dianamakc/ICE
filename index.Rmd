@@ -86,7 +86,7 @@ Submissions should contribute to a substantial, original and previously unpublis
 
 Cards %>% 
   cards(
-    title = Title,
+    header = Title,
     text = Description,
     image = Image,
     link = Link,
