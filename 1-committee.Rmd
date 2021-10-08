@@ -17,16 +17,13 @@ knitr::include_graphics('figures/banner/Committe.jpeg')
 ## General Conference Chairs
 
 - Prof. Laure Morel, Université de Lorraine, France
-
 - Prof. Mauricio Camargo, Université de Lorraine, France
-
 - Dr. Laurent Dupont, Université de Lorraine, France
 
 
 ## Conference Co-Chairs
 
 Alain Zarli, R2M, France (ICE'2019 Outgoing General Chair)
-
 Marc Pallot, Arts & Métiers ParisTech, France (ICE'2019 Outgoing General Chair)
 
 Brendan Galbraith, IEEE TEMS and Zayed University, UAE
