@@ -34,11 +34,11 @@ slickR::slickR(
 <h2>Technology, Engineering, and Innovation Management Communities as Enablers for Social-Ecological Transitions</h2>
 :::
 
-
+### $28^{th}$ ICE/ITMC & $31^{st}$ IAMOT Conference IEEE <br> June 19-23, 2022 - Nancy, France
 
 In 2020 and 2021 successively, two of the leading communities on Management of Technology, Engineering and Innovation organized on-line versions of their scientific conferences, showing much-needed adaptability in a pandemic situation.
  
-In 2022, **for the first time ever these two communities will work together for $28^{th}$ ICE/ITMC & $31^{st}$ IAMOT Conference IEEE 2022**, aiming to explore new ways for these technology management and innovation communities to interact and come up with innovative solutions to the critical global issues of our time.
+In 2022, **for the first time ever these two communities will work together**, aiming to explore new ways for these technology management and innovation communities to interact and come up with innovative solutions to the critical global issues of our time.
 
 
 
@@ -87,7 +87,6 @@ ICE-IAMOT 2022 General Chairs
 
 
 ```{r, layout="l-page"}
-
 Cards <- 
   tribble(
     ~Title, ~Description, ~Image,~Link,
