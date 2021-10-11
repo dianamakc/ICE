@@ -47,7 +47,7 @@ navbar:
         #   href: 3-theme.html
         - text: "Paper structure"
           href: 3-call.html
-    - text: "Come to Nnacy"
+    - text: "Venue to Nancy"
       href: 4-nancy.html
       
 output: distill::distill_article
