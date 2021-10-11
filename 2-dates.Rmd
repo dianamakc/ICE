@@ -1,5 +1,5 @@
 ---
-title: "Key dates"
+title: "Registration & Key dates"
 output:
   distill::distill_article:
     includes:
@@ -12,8 +12,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The registration fees for the conference are outlined below:
 
-**- Registration Fee (early bird) – until 30/5/2021 – £XX  – €XX**
-**- Registration Fee (regular) £XX- €XX**
+- **Registration Fee (early bird) – until 30/5/2022 – £XX  – €XX**
+- **Registration Fee (regular) £XX- €XX**
 
 This registration fee covers:
 - Publication of papers with IEEE
