@@ -43,10 +43,11 @@ navbar:
           
     - text: "Call for Papers"
       menu:
-        # - text: "Conference Theme"
-        #   href: 3-theme.html
-        - text: "Paper structure"
+        - text: "Key dates"
           href: 3-call.html
+        - text: "Templates & Structure"
+          href: 3-templates.html
+        
     - text: "Venue to Nancy"
       href: 4-nancy.html
       

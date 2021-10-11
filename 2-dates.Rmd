@@ -12,3 +12,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## To complete
 
+Please Note: All authors must pay the whole conference fee, even if they want to join only for the day of their presentation.
