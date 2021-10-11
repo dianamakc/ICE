@@ -1,5 +1,5 @@
 ---
-title: "Venue to Nancy"
+title: "Conference Venue"
 output:
   distill::distill_article:
     includes:
