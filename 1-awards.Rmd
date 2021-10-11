@@ -92,6 +92,7 @@ Three main aspects are used as criteria for *best reviewer*:
 2. demonstrated precision in comments
 3. provided constructive feedback and reliability
 
+Past winners of this award:
 
 - Award (2019) – David Romero, Tecnológico de Monterrey, Mexico
 - Award (2018)- Dr. Giovanny Arbelaez-Garces, Université de Lorraine
@@ -113,6 +114,7 @@ Four aspects are evaluated in the *best workshop*
 1. quality of hands-on aids
 1. answering questions
 
+Past winners of this award:`
 
 - Award(2019) – “A Journey to Intuition in Creativity and Innovation" conducted by Dr. Henri Samier, Arts & Metiers ParisTech, Presence & Innovation Team, LAMPA Lab.
 - Award (2017) – TBA
