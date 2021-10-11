@@ -30,10 +30,110 @@ knitr::opts_chunk$set(echo = FALSE)
 - Brendan Galbraith, IEEE TEMS and Zayed University, UAE
 - David Romero, IEEE TEMS and Tecnológico de Monterrey, Mexico
 
+
+
+## International Committee ICE / IAMOT
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+**ICE Community**:
+
+- Afonso Ferreira, DG CONNECT, European Commission, Belgium
+- Alain Bernad, École Central de Nantes, France
+- Aldora Gabriela Fernandes, University of Minho, Portugal
+- Anabela Pronto, UNINOVA – FCT/UNL, Portugal
+- Andrej Tibaut, University of Maribor, Faculty of Civil Engineering, Transportation Engineering - and Architecture, Slovenia
+- António Grilo, UNIDEMI – UNL/FCT, Portugal
+- Carlos Agostinho, UNINOVA, Portugal
+- Christina Weber, SCE Entrepreneurship Centre, University of Applied Sciences, Germany
+- Claudia Buecker, CeTIM- Center for Technology and Innovation Management
+- Evgeniya Gorlacheva, Bauman Moscow State Technical Univeristy, Russia
+- Fernando Luis Ferreira, UNINOVA, Portugal,
+- Gerhard Gudergan, RWTH Aachen, Germany
+- Ioan Sacala, University Politehnica of Bucharest, Romania
+- James Fleck, Technology Analysis  Strategic Management Journal/ University of Edinburgh
+- João Martins, UNINOVA – FCT/UNL, Portugal
+- João Sarraipa, UNINOVA, Portugal
+- José Machado, Universidade do Minho, Portugal
+- Kevin Reuther, University of the West of Scotland, UK
+- Kjetil Kristensen, NTNU, Norway
+- Klaus-Dieter Torben, BIBA and Universität Bremen
+- Kristin Paetzold, University Bw Munich, Germany
+- Kulwant S. Pawar, University of Nottingham, UK
+- Laurent Dupont, Universite de Lorraine
+- Luca Canetta, ICIMSI-SUPSI, Switzerland
+- Ma Xiaofeng, Tongji University, China
+- Manuella Kadar, Universitatea “1 Decembrie 1918" din Alba Iulia, Romania
+- Marco Taisch, Politecnico di Milano, Italy
+- Maria Marques, UNINOVA, Portugal
+- Milan Zdravković, University of Niš, Serbia
+- Neil Hewitt, Director of Centre of Sustainable Technologies, Ulster University
+- Paul Cartuyvel, Bouygues Europe, France
+- Paul Humphreys, Ulster University Business School, Northern Ireland
+- Pekka Abrahamsson, NTNU, Norway
+- Raul Poler, Universitat Politècnica de València, Spain
+- Robert Kerr, Ulster University Business School
+- Roberto Santoro, ESoCE-Net, Italy
+- Rodney McAdam, Ulster University Business School
+- Roland Ortt, Delft University of Technology, the Netherlands
+- Ruben Costa, UNINOVA, Portugal
+- Scott Cunningham, Delft University of Technology, Holland
+- Sergio Terzi, Politecnico di Milano, Italy
+- Abdul Rahman Abdel Razek, Arts & Métiers ParisTech, France
+- Marc König, bwcon Research GmbH
+
+:::
+
+::: {}
+
+**IAMOT Community**
+
+- Osman Ahmed (President), Pacific Northwest National Laboratory, USA
+- Tarek Khalil (IAMOT founder), President, Nile University, Egypt
+- Amrik Sohal,  Monash University, Australia
+- Anthon Botha, University Of Pretoria, South Africa
+- Charlette Geffen, Pacific Northwest National Laboratory, USA
+- Daniel Berg, University of Miami
+- David Bennett, Chalmers University of Technology, Sweden
+- Dominique Jolly, Webster University, Geneve
+- Ed Sweeney, AstonUniversity, UK
+- Eduardo Vasconcellos, University of Sào Paulo, Brazil
+- Essam Radwan, University of Central Florida
+- Fred Betz, Fredrick Betz, Former NSF, Washington State
+- Fuijo Niwa, Jan-Harm C. Pretorius,  University of Pretoria, South Africa
+- Jeff Butler, Manchester Bussines School – UK
+- Jeffrey A. Baetz, IBM
+- Jim Sphorer, IBM
+- Joe Tidd, University Of Sussex, UK
+- John Aje, Thomas Edison State University, NJ, USA
+- Josue Monterossi, Wahler Metalúrgica Ltda – subsidiary Duratherm Beteiligungs, GmbH , Brazil
+- Khaled Helmy, HP, Egypt
+- Koruna Jain, India
+- Lucy Morse, University of Central Florida
+- Massoud Amin, University of Minnesota
+- Max Von Zedwitz GLORAD – China
+- Michael Badawy,  VPI, USA
+- Moemo Pereira Nunes, Dept. of Development and Investment Promotion (Government of Brazil)
+- Mohamed El Nawawy, Egypt
+- N. Theodorakopoulos, Aston School of Business
+- Nurcin Celik, University of Miami
+- Paulo Zawislak Federal, University of Rio Grande do Sul, Brazil
+- Prannpeya Sriwannawit, KTH Royal Institute of Technology
+- Rias Van Wyk, Technoscan, USA
+- Robert Mason, University Of Washington, WA, USA
+- Rolland Ortt, TU Delft, Netherlands
+- Ruchita Gupta, India
+- Steven Walsh, New Mexico State University – USA
+- Sung-Goo Han, The National Assembly, Republic of Korea
+- Tae-Eung Sung, Korea Institute Of Science and Technology Information, Seoul Korea
+- Tinus Pretorius, University Of Pretoria, South Africa
+- Vincent Boly, Universitѐ de Lorraine, France
+- Yasser Hosni, Emeritus Professor University of Central Florida, IAMOT COB
+
+:::
+::::
+
+
 ## Local Organising Committee
-
-ERPI people to complete..
-
-...
-
-
