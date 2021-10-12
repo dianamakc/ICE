@@ -38,7 +38,7 @@ navbar:
       menu:
         - text: "Conference Theme"
           href: 2-theme.html
-        - text: "Registration & Key dates"
+        - text: "Registration"
           href: 2-dates.html
           
     - text: "Call for Papers"
@@ -48,7 +48,7 @@ navbar:
         - text: "Templates & Structure"
           href: 3-templates.html
         
-    - text: "Venue to Nancy"
+    - text: "Nancy"
       href: 4-nancy.html
       
 output: distill::distill_article
