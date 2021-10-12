@@ -16,6 +16,7 @@ The registration fees for the conference are outlined below:
 - **Registration Fee (regular) £XX- €XX**
 
 This registration fee covers:
+
 - Publication of papers with IEEE
 - Access to proceedings after the conference 
 - Access to the videos of sessions after the conference.
