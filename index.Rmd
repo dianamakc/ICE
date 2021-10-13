@@ -36,7 +36,7 @@ slickR::slickR(
 
 
 
-### 28<sup>th</sup> ICE/ITMC & 31<sup>st</sup> IAMOT Conference IEEE <br> June 19-23, 2022 - Nancy, France
+### 28<sup>th</sup> IEEE ICE & 31<sup>st</sup> IAMOT Conference IEEE <br> June 19-23, 2022 - Nancy, France
 
 In 2020 and 2021 successively, two of the leading communities on Management of Technology, Engineering and Innovation organized on-line versions of their scientific conferences, showing much-needed adaptability in a pandemic situation.
  
@@ -75,7 +75,9 @@ Cards %>%
 ```
 
 
-This joint event will be the place where research, science and industry innovators are invited to contribute original ideas, papers, special sessions, workshops and open initiatives. We would like to kindly invite our growing community of researchers, innovators, industrialists, engineers and practitioners to share their insights, practices, projects and case studies that address the conference theme: 
+This joint event will be the place where research, science and industry innovators are invited to contribute original ideas, papers, special sessions, workshops and open initiatives.
+
+The main aim is to explore the role of **Management of Technology, Engineering and Innovation can contribute to the the Social-Ecological Transitions** covering not only product and process but also changes in user practices, markets, policy, regulations, culture, infrastructure, lifestyle and management of firms.
 
 
 
@@ -149,6 +151,7 @@ department](https://empp.univ-lorraine.fr/en/the-research-department/) and [Inst
 -	Innovation on Education and Learning
 -	Human, Socio-Economic and Culture Issues
 -	Green Tech and New business model for Sustainability and Resilience
+- Regional competitiveness policy and smart specialization strategies
 
 ## Important Dates:
 
