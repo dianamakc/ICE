@@ -1,10 +1,10 @@
 ---
-title: "Post-1"
+title: "Welcome"
 description: |
-  A short description of the post.
+  ICE/IAMOT 2022 Conference host introduction.
 author:
-  - name: Nora Jones
-    url: https://example.com/norajones
+  - name: ICE chairs
+    url: https://erpi.univ-lorraine.fr
 date: 2021-09-28
 output:
   distill::distill_article:
@@ -16,9 +16,8 @@ draft: false
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+Welcome to the ICE/ IAMOT 2022 joint Conference website the ERPI team in Nancy is working to provide you an innovative experience in the city of Nancy in 2022.
 
-Distill is a publication format for scientific and technical writing, native to the web.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+the website and the conference program are being update regularly, we will keep you informed on any update.
 
 
