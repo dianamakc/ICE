@@ -29,7 +29,7 @@ Furthermore, the NITIM School is all about a community. This PhD consortia is th
 ::: {.infobox .goal data-latex="{.goal}"}
 **NITIM Summer School 2022 – Important deadlines**
 
-- `r fa(name = "download", fill = "steelblue")` [Download the Template Extended Abstract - NITIM 2022](assets/template-nitim.docx)
+- `r fa(name = "download", fill = "steelblue")` [Download the Template Extended Abstract - NITIM 2022](assets/nitim/template-nitim.docx)
 
 
 :::
