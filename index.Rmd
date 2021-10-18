@@ -42,6 +42,20 @@ In 2020 and 2021 successively, two of the leading communities on Management of T
  
 In 2022, **for the first time ever these two communities will work together**, aiming to explore new ways for these technology management and innovation communities to interact and come up with innovative solutions to the critical global issues of our time.
 
+## Conference themes:
+
+-	R&D, Innovation and Entrepreneurship
+-	Corporate Venturing & Digital Entrepreneurship
+-	Intrapreneurship strategy and processes
+-	Technology Foresight and Forecasting
+-	Service Design and Engineering
+-	Industry 4.0: Digital Innovation management and applications of AI
+-	Responsible research and innovation
+-	Innovation on Education and Learning
+-	Human, Socio-Economic and Culture Issues
+-	Green Tech and New business model for Sustainability and Resilience
+- Regional competitiveness policy and smart specialization strategies
+
 
 
 ```{r, layout="l-body"}
@@ -139,19 +153,6 @@ department](https://empp.univ-lorraine.fr/en/the-research-department/) and [Inst
 <iframe width="900" height="500" src="https://www.youtube.com/embed/7dcUm6ujMJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Conference themes:
-
--	R&D, Innovation and Entrepreneurship
--	Corporate Venturing & Digital Entrepreneurship
--	Intrapreneurship strategy and processes
--	Technology Foresight and Forecasting
--	Service Design and Engineering
--	Industry 4.0: Digital Innovation management and applications of AI
--	Responsible research and innovation
--	Innovation on Education and Learning
--	Human, Socio-Economic and Culture Issues
--	Green Tech and New business model for Sustainability and Resilience
-- Regional competitiveness policy and smart specialization strategies
 
 ## Important Dates:
 
