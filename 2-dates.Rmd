@@ -12,8 +12,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The registration fees for the conference are outlined below:
 
-- **Registration Fee (early bird) – until 30/5/2022 – £XX  – €XX**
-- **Registration Fee (regular) £XX- €XX**
+- **Registration Fee will be published soon – 
+<!-- (early bird) until 30/5/2022 – £XX  – €XX** -->
+<!-- - **Registration Fee (regular) £XX- €XX** -->
 
 This registration fee covers:
 
@@ -22,6 +23,6 @@ This registration fee covers:
 - Access to the videos of sessions after the conference.
 - Use of conftool submissions systems to manage and process submissions
  
-**[Registration for ICE 2022 is available here.]()**
+**[Registration for ICE 2022 will be available soon.]()**
 
 Please Note: All authors must pay the whole conference fee, even if they want to join only for the day of their presentation.
