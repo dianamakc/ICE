@@ -4,7 +4,7 @@ theme: assets/ICE.css
 description: |
   My Website
 output_dir: "docs"
-base_url: https://lf2l.fr/ICE/
+base_url: https://ice-iamot-2022-conference.org
 repository_url: https://github.com/LF2L/ICE
 creative_commons: CC BY-SA
 twitter:

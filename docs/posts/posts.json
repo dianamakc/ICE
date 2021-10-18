@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/2021-09-28-post-1/",
-    "title": "Post-1",
-    "description": "A short description of the post.",
+    "title": "Welcome",
+    "description": "ICE/IAMOT 2022 Conference host introduction.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "ICE chairs",
+        "url": "https://erpi.univ-lorraine.fr"
       }
     ],
     "date": "2021-09-28",
     "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "contents": "\nWelcome to the ICE/ IAMOT 2022 joint Conference website the ERPI team in Nancy is working to provide you an innovative experience in the city of Nancy in 2022.\nthe website and the conference program are being update regularly, we will keep you informed on any update.\nYou can donwload the Call For Papers here\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-09-28T20:43:56+02:00",
+    "last_modified": "2021-10-18T11:10:53+02:00",
     "input_file": {}
   }
 ]
