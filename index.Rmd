@@ -26,7 +26,8 @@ library(bs4cards) # To install before
 slickR::slickR(
     list.files("figures/Nancy",full.names = TRUE,pattern = 'jpeg'),
     height = 500,
-    width = '100%')
+    width = '100%') +
+  slickR::settings(autoplay = TRUE, autoplaySpeed = 5000)
 ```
 
 
