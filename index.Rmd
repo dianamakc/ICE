@@ -27,7 +27,7 @@ slickR::slickR(
     list.files("figures/Nancy",full.names = TRUE,pattern = 'jpeg'),
     height = 500,
     width = '100%') +
-  slickR::settings(autoplay = TRUE, autoplaySpeed = 5000)
+  slickR::settings(autoplay = TRUE, autoplaySpeed = 8000)
 ```
 
 
