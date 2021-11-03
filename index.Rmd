@@ -118,7 +118,7 @@ Cards <-
       "The IEEE 28th ICE/ITMC & 31st IAMOT invites high-quality papers to be presented at this premier international event. 
 Submissions should contribute to a substantial, original and previously unpublished research related to the topics of the conference. This includes theoretical research papers that provide new concepts. The paper submission ends on the 7th  February 2022.",
     'Figures/cards/Call-for-papers.jpg',
-  'https://lf2l.fr/ICE/3-paper.html',
+  'https://ice-iamot-2022-conference.org/3-call.html',
     
 
 
