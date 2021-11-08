@@ -18,8 +18,6 @@ library(bs4cards) # To install before
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
 
-
-
 ```
 
 ```{r, layout="l-screen"}
