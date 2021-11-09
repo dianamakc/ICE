@@ -12,7 +12,8 @@ library(fontawesome)
 ```
 
 
-This Summer School is organized once a year in cooperation with the ICE/IEEE ITMC Conference and thus takes place at changing locations – e.g. 2016 in Trondheim (Norway), 2017 in Madeira (Portugal) and 2018 in Konstanz (Germany), in 2019 in Nice (France), and online in 2020 and 2021. 
+This Summer School is organized once a year in cooperation with the ICE/IEEE ITMC Conference and thus takes place at changing locations – e.g. 2016 in Trondheim (Norway), 2017 in Madeira (Portugal) and 2018 in Konstanz (Germany), in 2019 in Nice (France), and online in 2020 and 2021.
+
 **In June 2022, the Summer School will also be a joint event with IAMOT Community, and will take place in Nancy (France).** 
 
 
@@ -22,21 +23,22 @@ The NITIM Graduate Summer School is an international PhD school that focuses on 
 Furthermore, the NITIM School is all about a community. This PhD consortia is the opportunity to meet a great group of people who is open to share their ideas, knowledge and experiences. Network members include PhD candidates, alumni, faculty and industry partners in over 10 countries around the world, representing over 20 nationalities.
 
 
->**We invite PhD candidates to submit proposals for evaluation and we invite faculty members to join us.**. 
+**We invite PhD candidates to submit proposals for evaluation and we invite faculty members to join us.**. 
 
 The core of the Summer School will be group sessions of 5 PhD candidates and 3 faculty members.
 If you are still at an early stage of you PhD, we are looking forward to receiving your research proposal. For those in their late stage of their PhD., you are encouraged to submit a relevant piece for your research (a paper, an overview, or a chapter of your PhD thesis).
 
+
 The admission to the school will be based on the fit of an extended abstract (download template here) of your proposal with the topic of the school. Afterwards, a full proposal/paper is required, which will serve as the basis for discussion and comments at NITIM Summer School.
 
-**All important deadlines will be announced shortly.** 
+
+All important deadlines will be announced shortly.
 
 
-**Two and a half days of hard work, academic reflection and looking ahead.**
+**Two and a half days of hard work, academic reflection and looking ahead. **
 
-Two and a half days of hard work, academic reflection and looking ahead. 
 Finally, we would like to present this year’s organization team:
-Stefan Klein, Roland Ortt, Laurent Dupont, Fanny Pruvot, Guillaume Pronost, Diana Cardenas, and Valentine Labouheure, Brunelle Marche and Mauricio Camargo.
+Fanny Pruvot, Guillaume Pronost, Diana Cardenas, Valentine Labouheure, Laurent Dupont, Prof. Mauricio Camargo, Prof. Stefan Klein and Prof. Roland Ortt.
 If you want to know more about the NITIM Community, please feel free to contact us at nitim.contact@gmail.com or visit our website https://www.nitim.org/
 
 
