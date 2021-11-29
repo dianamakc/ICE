@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Afonso Ferreira, DG CONNECT, European Commission, Belgium
 - Alain Bernad, École Central de Nantes, France
-- Aldora Gabriela Fernandes, University of Minho, Portugal
+- Gabriela Fernandes, University of Coimbra, Portugal
 - Anabela Pronto, UNINOVA – FCT/UNL, Portugal
 - Andrej Tibaut, University of Maribor, Faculty of Civil Engineering, Transportation Engineering - and Architecture, Slovenia
 - António Grilo, UNIDEMI – UNL/FCT, Portugal
