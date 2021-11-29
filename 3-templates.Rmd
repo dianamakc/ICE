@@ -43,7 +43,7 @@ Please see our IEEE ICE’2022 Author’s Kit for detailed instructions about al
 
 Based on the recommendations of the reviewers, the editorial committee will allocate submissions for oral presentation of papers and/or for poster presentations. Speakers will have 20 minutes for presentation and discussion of their paper. The official language of the conference is English.
 
-The ICE/IEEE ITMC 2022 conference will publish one paper per presenting author only. All accepted, compliant and plagiarism-free papers will be submitted for publication in the digital conference proceedings to be available via IEEE Xplore® (with ISBN Number and DOI for the paper), only if at least one author pays a full registration fee before the deadline.
+The ICE/IEEE ITMC 2022 conference will submit one paper per presenting author only. All accepted, compliant and plagiarism-free papers will be submitted for publication in the digital conference proceedings to be available via IEEE Xplore® (with ISBN Number and DOI for the paper), only if at least one author pays a full registration fee before the deadline.
 
 All Abstracting and Indexing (A&I) providers can be found here: http://ieeeauthorcenter.ieee.org/when-your-article-is-published/abstracting-indexing-ai-databases/ and include amongst others Scopus and Web of Science.
 
