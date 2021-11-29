@@ -475,7 +475,7 @@ d-title {
 
 </style>
 
-<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1623,10 +1623,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -6978,7 +6975,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Welcome","description":"ICE/IAMOT 2022 Conference host introduction.","authors":[{"author":"ICE chairs","authorURL":"https://erpi.univ-lorraine.fr","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-28T00:00:00.000+02:00","citationText":"chairs, 2021"}
+{"title":"Welcome","description":"ICE/IAMOT 2022 Conference host introduction.","authors":[{"author":"ICE chairs","authorURL":"https://erpi.univ-lorraine.fr","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-28T00:00:00.000+00:00","citationText":"chairs, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -7087,20 +7084,17 @@ Call for Papers
 }</pre>
 </div>
 <!--/radix_placeholder_appendices-->
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<!--radix_placeholder_navigation_after_body--><html><body>
+<!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>Conference Venue Hosted by â ERPI - UniversitÃ© de Lorraine</p>
-<p>8 Rue Bastien Lepage, Nancy, France</p>
-<p>Contact Information ICE 2022 Conference Board Email: ice-iamot-2022-contact@univ-lorraine.fr</p>
-<p>CopyrightÂ© 28th ICE / IAMOT Conference 2022</p>
-<div class="footer_logo">
-   
-<img class="" src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/ICE/footer.svg" alt="">
-</div>
+  <p>Conference Venue Hosted by – ERPI - Université de Lorraine</p>
+  <p>8 Rue Bastien Lepage, Nancy, France</p>
+  <p>Contact Information ICE 2022 Conference Board Email: ice-iamot-2022-contact@univ-lorraine.fr</p>
+  <p>Copyright© 28th ICE / IAMOT Conference 2022</p>
+  <div class="footer_logo">
+    <img class="" src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/ICE/footer.svg" alt=""/>
+  </div>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
-</body></html>
 
 
 </body>
