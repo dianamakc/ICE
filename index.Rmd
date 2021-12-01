@@ -2,6 +2,10 @@
 title: "Recent News"
 site: distill::distill_website
 listing: posts
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/inicio.html
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
@@ -20,7 +24,7 @@ library(bs4cards) # To install before
 
 ```
 
-```{r, layout="l-screen"}
+```{r, layout="l-screen", include=FALSE}
 slickR::slickR(
     list.files("figures/Nancy",full.names = TRUE,pattern = 'jpeg'),
     height = 500,
