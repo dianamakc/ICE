@@ -12,6 +12,8 @@ library(fontawesome)
 ```
 
 
+holq this is diqnq
+
 This Summer School is organized once a year in cooperation with the ICE/IEEE ITMC Conference and thus takes place at changing locations – e.g. 2016 in Trondheim (Norway), 2017 in Madeira (Portugal) and 2018 in Konstanz (Germany), in 2019 in Nice (France), and online in 2020 and 2021.
 
 **In June 2022, the Summer School will also be a joint event with IAMOT Community, and will take place in Nancy (France).** 
