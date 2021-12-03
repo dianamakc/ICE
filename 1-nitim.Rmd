@@ -1,5 +1,5 @@
 ---
-title: "Call for Papers (NITIM Summer School 2022)"
+title: "Call for Participation (NITIM Summer School 2022)"
 output:
   distill::distill_article:
     includes:
@@ -12,11 +12,10 @@ library(fontawesome)
 ```
 
 
-holq this is diqnq
 
 This Summer School is organized once a year in cooperation with the ICE/IEEE ITMC Conference and thus takes place at changing locations – e.g. 2016 in Trondheim (Norway), 2017 in Madeira (Portugal) and 2018 in Konstanz (Germany), in 2019 in Nice (France), and online in 2020 and 2021.
 
-**In June 2022, the Summer School will also be a joint event with IAMOT Community, and will take place in Nancy (France).** 
+**The NITIM 2022 Summer School (June 16th - 18th, 2022) will be a joint event between ICE/IEEE and IAMOT Communities, and it will take place in Nancy, France.** 
 
 
 The NITIM Graduate Summer School is an international PhD school that focuses on topics in the areas of entrepreneurship, innovation and technology management as well as information and communication technologies. The NITIM Schools facilitate the development of doctoral research in the interdisciplinary field of Networks, Information, Technology and Innovation Management, bringing together PhD candidates and faculty members in a focused, in-depth, and constructive discussion of the candidates’ research work.
@@ -40,12 +39,12 @@ All important deadlines will be announced shortly.
 **Two and a half days of hard work, academic reflection and looking ahead. **
 
 Finally, we would like to present this year’s organization team:
-Fanny Pruvot, Guillaume Pronost, Diana Cardenas, Valentine Labouheure, Laurent Dupont, Prof. Mauricio Camargo, Prof. Stefan Klein and Prof. Roland Ortt.
+Fanny Pruvot, Diana Cardenas, Valentine Labouheure, Guillaume Pronost, Laurent Dupont, Prof. Mauricio Camargo, Prof. Stefan Klein and Prof. Roland Ortt.
 If you want to know more about the NITIM Community, please feel free to contact us at nitim.contact@gmail.com or visit our website https://www.nitim.org/
 
 
 ```{r, layout="l-body", out.extra="class=external"}
-knitr::include_graphics("figures/nitim/NITIM-coming-soon.jpg")
+knitr::include_graphics("figures/nitim/NITIM-SaveDate-29112021.png")
 ```
 
 
