@@ -41,18 +41,18 @@ knitr::include_graphics("hny2.jpeg")
 
 **Dear ICE-IAMOT Community members**, 
  
-First of all, we wish you all the best for this new year, health, happiness and wonderful surprises. 
- 
+First of all, we wish you all the best for this new year, health, happiness, and wonderful surprises. 
 Instead, the uncertainties and continuous contingencies, resulting from the pandemic evolution, we are still working hard to ensure a valuable and insightful ICE-IAMOT conference 2022. 
  
 To answer some questions from the communities’ members regarding the on-line participation, let us remain you that since the beginning we considered the conference as a hybrid event. 
 Meaning that all the accepted research works could be presented either in person or on a distance basis. 
 
-In any case, no matter the situation will be next June, we’re sure our vibrant communities will have a dedicated space to exchange and discuses on how engineering, innovation and Management of Technology could make significant contributions to undertake the challenges our society is facing today. 
+In any case, no matter what the situation will be next June, we’re sure our vibrant communities will have a dedicated space to exchange and discuss how engineering, innovation, and Management of Technology could make significant contributions to undertake the challenges our society is facing today. 
  
 Thanks a lot for your comprehension and support,
  
 Best regards,
 
-The Organizing Committee Chair <br>
-Pr. Laure Morel,   Pr. Mauricio Camargo ,  Dr. Laurent Dupont
+The Organizing Committee Chair,<br>
+Pr. Laure Morel,  Pr. Mauricio Camargo, Dr. Laurent Dupont
+
