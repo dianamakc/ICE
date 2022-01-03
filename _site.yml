@@ -2,16 +2,16 @@ name: "IEEE ICE - IAMOT Conference 2022"
 title: "IEEE ICE - IAMOT Conference 2022"
 theme: assets/ICE.css
 description: |
-  My Website
+  Conference ICE / IAMOT 2022 - Nancy, France
 output_dir: "docs"
 base_url: https://ice-iamot-2022-conference.org
-repository_url: https://github.com/LF2L/ICE
-creative_commons: CC BY-SA
+#repository_url: https://github.com/LF2L/ICE
+#creative_commons: CC BY-SA
 twitter:
-  site: "@rstudio"
+  site: ""
 
 navbar:
-  source_url: true
+  source_url: false
   search: false
   logo:
     image: 'figures/logos/navbar-ice-iamot.png'

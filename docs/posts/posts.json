@@ -1,5 +1,30 @@
 [
   {
+    "path": "posts/2022-01-03-news/",
+    "title": "Happy New Year 2022 from ICE/IAMOT 2022 Conference",
+    "description": "First of all, we wish you all the best for this new year, health, happiness and wonderful surprises.",
+    "author": [
+      {
+        "name": "Mauricio Camargo",
+        "url": "https://erpi.univ-lorraine.fr/people/Mauricio-Camargo/"
+      },
+      {
+        "name": "Laure Morel",
+        "url": "http://erpi.univ-lorraine.fr/people/Laure-Morel/"
+      },
+      {
+        "name": "Laurent Dupont",
+        "url": "http://erpi.univ-lorraine.fr/people/Laurent-Dupont/"
+      }
+    ],
+    "date": "2022-01-03",
+    "categories": [],
+    "contents": "\n\n\n\nFigure 1: Photo by Sincerely Media on Unsplash\n\n\n\nDear ICE-IAMOT Community members,\nFirst of all, we wish you all the best for this new year, health, happiness and wonderful surprises.\nInstead, the uncertainties and continuous contingencies, resulting from the pandemic evolution, we are still working hard to ensure a valuable and insightful ICE-IAMOT conference 2022.\nTo answer some questions from the communities’ members regarding the on-line participation, let us remain you that since the beginning we considered the conference as a hybrid event. Meaning that all the accepted research works could be presented either in person or on a distance basis.\nIn any case, no matter the situation will be next June, we’re sure our vibrant communities will have a dedicated space to exchange and discuses on how engineering, innovation and Management of Technology could make significant contributions to undertake the challenges our society is facing today.\nThanks a lot for your comprehension and support,\nBest regards,\nThe Organizing Committee Chair  Pr. Laure Morel, Pr. Mauricio Camargo , Dr. Laurent Dupont\n\n\n\n",
+    "preview": "posts/2022-01-03-news/hny2.jpeg",
+    "last_modified": "2022-01-03T10:31:20+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-09-28-post-1/",
     "title": "Welcome",
     "description": "ICE/IAMOT 2022 Conference host introduction.",

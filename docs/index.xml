@@ -4,10 +4,21 @@
     <title>IEEE ICE - IAMOT Conference 2022</title>
     <link>https://ice-iamot-2022-conference.org</link>
     <atom:link href="https://ice-iamot-2022-conference.org/index.xml" rel="self" type="application/rss+xml"/>
-    <description>My Website
+    <description>Conference ICE / IAMOT 2022 - Nancy, France
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Happy New Year 2022 from ICE/IAMOT 2022 Conference</title>
+      <dc:creator>Mauricio Camargo</dc:creator>
+      <dc:creator>Laure Morel</dc:creator>
+      <dc:creator>Laurent Dupont</dc:creator>
+      <link>https://ice-iamot-2022-conference.org/posts/2022-01-03-news</link>
+      <description>First of all, we wish you all the best for this new year, health, happiness and wonderful surprises.</description>
+      <guid>https://ice-iamot-2022-conference.org/posts/2022-01-03-news</guid>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://ice-iamot-2022-conference.org/posts/2022-01-03-news/hny2.jpeg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Welcome</title>
       <dc:creator>ICE chairs</dc:creator>
