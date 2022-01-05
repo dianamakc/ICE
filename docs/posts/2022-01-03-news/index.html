@@ -472,7 +472,7 @@ d-title {
 
 </style>
 
-<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1620,7 +1620,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -6978,7 +6981,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Happy New Year 2022 from ICE/IAMOT 2022 Conference","description":"First of all, we wish you all the best for this new year, health, happiness and wonderful surprises.","authors":[{"author":"Mauricio Camargo","authorURL":"https://erpi.univ-lorraine.fr/people/Mauricio-Camargo/","affiliation":"ERPI","affiliationURL":"https://erpi.univ-lorraine.fr/","orcidID":"0000-0003-3867-2438"},{"author":"Laure Morel","authorURL":"http://erpi.univ-lorraine.fr/people/Laure-Morel/","affiliation":"ERPI","affiliationURL":"https://erpi.univ-lorraine.fr/","orcidID":"0000-0002-6666-8375"},{"author":"Laurent Dupont","authorURL":"http://erpi.univ-lorraine.fr/people/Laurent-Dupont/","affiliation":"ERPI","affiliationURL":"https://erpi.univ-lorraine.fr/","orcidID":"0000-0002-8279-9690"}],"publishedDate":"2022-01-03T00:00:00.000+00:00","citationText":"Camargo, et al., 2022"}
+{"title":"Happy New Year 2022 from ICE/IAMOT 2022 Conference","description":"First of all, we wish you all the best for this new year, health, happiness and wonderful surprises.","authors":[{"author":"Mauricio Camargo","authorURL":"https://erpi.univ-lorraine.fr/people/Mauricio-Camargo/","affiliation":"ERPI","affiliationURL":"https://erpi.univ-lorraine.fr/","orcidID":"0000-0003-3867-2438"},{"author":"Laure Morel","authorURL":"http://erpi.univ-lorraine.fr/people/Laure-Morel/","affiliation":"ERPI","affiliationURL":"https://erpi.univ-lorraine.fr/","orcidID":"0000-0002-6666-8375"},{"author":"Laurent Dupont","authorURL":"http://erpi.univ-lorraine.fr/people/Laurent-Dupont/","affiliation":"ERPI","affiliationURL":"https://erpi.univ-lorraine.fr/","orcidID":"0000-0002-8279-9690"}],"publishedDate":"2022-01-03T00:00:00.000+01:00","citationText":"Camargo, et al., 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -7088,21 +7091,23 @@ Figure 1: Photo by Sincerely Media on Unsplash
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
-<!--radix_placeholder_navigation_after_body-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!--radix_placeholder_navigation_after_body--><html><body>
 <div class="distill-site-nav distill-site-footer">
-  <p>Conference Venue Hosted by – ERPI - Université de Lorraine</p>
-  <p>8 Rue Bastien Lepage, Nancy, France</p>
-  <p>Contact Information ICE 2022 Conference Board Email: ice-iamot-2022-contact@univ-lorraine.fr</p>
-  <p>Copyright© 28th ICE / IAMOT Conference 2022</p>
-  <div class="footer_logo">
-    <img class="" src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/ICE/footer.svg" alt=""/>
-  </div>
-  <div class="footer_logo">
-    <img class="" src="../../figures/logos/banner-IEEE.jpg" alt="" style="max-width:200px;width:100%;"/>
-    <img class="" src="../../figures/logos/logo-IEEE.png" alt="" style="max-width:120px;width:100%; margin-left:30px"/>
-  </div>
+<p>Conference Venue Hosted by â ERPI - UniversitÃ© de Lorraine</p>
+<p>8 Rue Bastien Lepage, Nancy, France</p>
+<p>Contact Information ICE 2022 Conference Board Email: ice-iamot-2022-contact@univ-lorraine.fr</p>
+<p>CopyrightÂ© 28th ICE / IAMOT Conference 2022</p>
+<div class="footer_logo">
+   
+<img class="" src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/ICE/footer.svg" alt="">
+</div>
+<div class="footer_logo">
+<img class="" src="../../figures/logos/banner-IEEE.jpg" alt="" style="max-width:200px;width:100%;"><img class="" src="../../figures/logos/logo-IEEE.png" alt="" style="max-width:120px;width:100%; margin-left:30px">
+</div>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
+</body></html>
 
 
 </body>
