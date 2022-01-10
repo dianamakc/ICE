@@ -1,0 +1,55 @@
+---
+title: "Happy New Year 2022 from ICE/IAMOT 2022 Conference"
+description: |
+  First of all, we wish you all the best for this new year, health, happiness and wonderful surprises.
+author:
+  - first_name: "Mauricio"
+    last_name: "Camargo"
+    url: https://erpi.univ-lorraine.fr/people/Mauricio-Camargo/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0003-3867-2438 
+  - first_name: "Laure"
+    last_name: "Morel"
+    url: http://erpi.univ-lorraine.fr/people/Laure-Morel/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0002-6666-8375
+  - first_name: "Laurent"
+    last_name: "Dupont"
+    url: http://erpi.univ-lorraine.fr/people/Laurent-Dupont/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0002-8279-9690
+citation: false
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(here)
+```
+
+
+```{r fig.cap="Photo by Sincerely Media on Unsplash",  layout="l-body"}
+knitr::include_graphics("hny2.jpeg")
+```
+
+
+**Dear ICE-IAMOT Community members**, 
+ 
+First of all, we wish you all the best for this new year, health, happiness, and wonderful surprises.
+
+Despite the ongoing uncertainties and contingencies resulting from the evolving pandemic, we continue to work hard to ensure a quality and informative ICE-IAMOT 2022 conference.
+
+To address some of the questions from community members regarding online participation, we remind you that from the beginning we have considered the conference a hybrid event.
+This means that all accepted research could be presented either in person or remotely.
+In any case, whatever the situation next June, we are sure that our dynamic communities will have a dedicated space to exchange and discuss how engineering, innovation and technology management could significantly contribute to address the challenges our society is facing today.
+
+Thank you very much for your understanding and support,
+
+The Organizing Committee Chair,<br>
+Pr. Laure Morel,  Pr. Mauricio Camargo, Dr. Laurent Dupont
