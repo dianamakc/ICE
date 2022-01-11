@@ -20,6 +20,8 @@ The paper should clearly describe its purpose and relevance, a reference to exis
 
 - [**Submission kit here**](assets/paper-template/2022_ICE_IEEE_Authors Kit.docx)
 
+- [**LaTeX template**](https://www.ieee.org/conferences/publishing/templates.html)
+
 
 [**Submit your paper on ConfTool Here**](https://www.conftool.pro/ice-iamot-2022)
 :::
