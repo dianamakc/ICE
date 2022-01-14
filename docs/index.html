@@ -57,7 +57,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #20794d; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -78,14 +78,13 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.sc { color: #20794d; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
-
 
   <!--radix_placeholder_meta_tags-->
   <title>IEEE ICE - IAMOT Conference 2022: Recent News</title>
@@ -455,7 +454,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1603,10 +1602,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refs = $(this).attr('data-cites').split(" ");
-        var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
-        }).join("\n");
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -6943,8 +6939,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11.3/header-attrs.js"></script>
-  <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+  <script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
   <script src="site_libs/jquery-3.4.1/jquery-3.4.1.min.js"></script>
   <script src="site_libs/jquery-migrate-3.1.0/jquery-migrate-3.1.0.min.js"></script>
   <link href="site_libs/slick-1.8.1/slick/slick.css" rel="stylesheet" />
@@ -6952,9 +6948,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/slick-1.8.1/slick/slick.min.js"></script>
   <script src="site_libs/css-resize-1.2.1/ResizeSensor.js"></script>
   <script src="site_libs/css-resize-1.2.1/ElementQueries.js"></script>
-  <link href="site_libs/slickR-0.0.2/slick.css" rel="stylesheet" />
-  <link href="site_libs/slickR-0.0.2/slick-theme.css" rel="stylesheet" />
-  <script src="site_libs/slickR-0.0.2/slickR.js"></script>
+  <link href="site_libs/slickR-0.0.1/slick.css" rel="stylesheet" />
+  <link href="site_libs/slickR-0.0.1/slick-theme.css" rel="stylesheet" />
+  <script src="site_libs/slickR-0.0.1/slickR.js"></script>
   <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
   <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
@@ -7051,7 +7047,7 @@ function init_posts_list() {
     var src = $(img).attr('data-src');
     if (src) {
       $(img).attr('src', src);
-      $(img).on("load", function() {
+      $(img).load(function() {
         img.removeAttribute('data-src');
       });
     }
@@ -7097,7 +7093,6 @@ function init_posts_list() {
 
       // mark posts that match the category visible
       var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
       var posts = $('.post-metadata').map(function(idx, script) {
         var metadata = $.parseJSON($(script).html());
         var post = null;
@@ -7113,7 +7108,7 @@ function init_posts_list() {
       set_posts_visible(posts, true);
 
       // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
 
       // update the list_caption
       var list_caption = $('.posts-list-caption');
@@ -7256,22 +7251,22 @@ Technology, Engineering, and<br> Innovation Management Communities as Enablers f
 <div class="layout-chunk" data-layout="l-body">
 <div>
 <div class="row p-0 row-cols-2" style="margin-left: -.2rem; margin-right: -.2rem; margin-top: 1rem; margin-bottom: 1rem; ">
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">ICE Community</div>
-<a href="https://ice-iamot-2022-conference.org/1-history.html" style="color: inherit;">
-<img src="figures/logos/Cards-ICE.jpg" class="card-img-top" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">ICE Community</div>
+<a href="https://ice-iamot-2022-conference.org/1-history.html">
+<img src="figures/logos/Cards-ICE.jpg" class="card-img-top" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: inherits; border-style:solid; border-color:inherits; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
+<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: #FFFFFFAA; border-style:solid; border-color:#808080FF; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
 <a href="https://ice-iamot-2022-conference.org/1-history.html"></a>
 <p class="card-text my-auto px-3 pb-3 pt-1">It is the International Conference on Engineering, Technology, and Innovation. It developed from an early focus on the engineering method of concurrent engineering, to general organization of the engineering process and its organization within the corporation and in networks.</p>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">IAMOT Community</div>
-<a href="http://www.iamot.com/" style="color: inherit;">
-<img src="figures/logos/Cards-Iamot.jpg" class="card-img-top" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">IAMOT Community</div>
+<a href="http://www.iamot.com/">
+<img src="figures/logos/Cards-Iamot.jpg" class="card-img-top" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: inherits; border-style:solid; border-color:inherits; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
+<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: #FFFFFFAA; border-style:solid; border-color:#808080FF; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
 <a href="http://www.iamot.com/"></a>
 <p class="card-text my-auto px-3 pb-3 pt-1">The International Association for Management of Technology (IAMOT). IAMOT is a non-governmental, non-profit organization incorporated in 1992 in the State of Florida, USA. Its purpose is to encourage high quality research and education in the field of management of technology (MOT).</p>
 </div>
@@ -7286,33 +7281,33 @@ Technology, Engineering, and<br> Innovation Management Communities as Enablers f
 <div class="layout-chunk" data-layout="l-page">
 <div>
 <div class="row p-0 row-cols-1 row-cols-md-2 row-cols-lg-3" style="margin-left: -.2rem; margin-right: -.2rem; margin-top: 1rem; margin-bottom: 1rem; ">
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">Key Notes &amp; Roundtables</div>
-<a href="https://lf2l.fr/ICE/2-theme.html" style="color: inherit;">
-<img src="figures/cards/Roundtable.jpg" class="card-img-top" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">Key Notes &amp; Roundtables</div>
+<a href="https://lf2l.fr/ICE/2-theme.html">
+<img src="figures/cards/Roundtable.jpg" class="card-img-top" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: inherits; border-style:solid; border-color:inherits; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
+<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: #FFFFFFAA; border-style:solid; border-color:#808080FF; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
 <a href="https://lf2l.fr/ICE/2-theme.html"></a>
 <p class="card-text my-auto px-3 pb-3 pt-1">ICE/IEEE ITMC conference includes distinguished keynote speakers. Those keynotes will participate in our panel sessions on Innovation through the use of Immersive Technologies and Artificial Intelligence. We were able to acquire a selection of thought leading innovation managers, CEOs, scholars, politicians, and entrepreneurs in these fields.</p>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">Call for Papers</div>
-<a href="https://ice-iamot-2022-conference.org/3-call.html" style="color: inherit;">
-<img src="figures/cards/Call-for-papers.jpg" class="card-img-top" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">Call for Papers</div>
+<a href="https://ice-iamot-2022-conference.org/3-call.html">
+<img src="figures/cards/Call-for-papers.jpg" class="card-img-top" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: inherits; border-style:solid; border-color:inherits; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
+<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: #FFFFFFAA; border-style:solid; border-color:#808080FF; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
 <a href="https://ice-iamot-2022-conference.org/3-call.html"></a>
 <p class="card-text my-auto px-3 pb-3 pt-1">The IEEE 28th ICE/ITMC &amp; 31st IAMOT invites high-quality papers to be presented at this premier international event. 
 Submissions should contribute to a substantial, original and previously unpublished research related to the topics of the conference. This includes theoretical research papers that provide new concepts. The paper submission ends on the 7th  February 2022.</p>
 </div>
 </div>
-<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
-<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">NITIM-Doctoral School</div>
-<a href="https://www.nitim.org/" style="color: inherit;">
-<img src="figures/cards/header.jpg" class="card-img-top" style="border-style:solid; border-color:inherits; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
+<div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah bs4cards-NA" style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
+<div class="card-header small text-muted px-3 py-auto" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: .6rem .6rem 0 0 ;">NITIM-Doctoral School</div>
+<a href="https://www.nitim.org/">
+<img src="figures/cards/header.jpg" class="card-img-top" style="border-style:solid; border-color:#808080FF; border-width:1px 1px 0 1px; border-radius: 0 0 0 0 ;"/>
 </a>
-<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: inherits; border-style:solid; border-color:inherits; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
+<div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: #FFFFFFAA; border-style:solid; border-color:#808080FF; border-width:1px; border-radius: 0 0 .6rem .6rem ;">
 <a href="https://www.nitim.org/"></a>
 <p class="card-text my-auto px-3 pb-3 pt-1">The NITIM graduate school is an international PhD school that focuses on topics in the areas of entrepreneurship, innovation and technology management as well as information and communication technologies. The NITIM summer school will be co-organized this year by ICE/ITMC faculty members and the IAMOT PhD Colloquium Team. It will take place at the inspiring innovation Fab Living Lab (LF2L) of the Université de Lorraine.</p>
 </div>
