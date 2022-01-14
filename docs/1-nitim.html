@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>IEEE ICE - IAMOT Conference 2022: Call for Participation (NITIM Summer School 2022)</title>
@@ -453,7 +454,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1601,7 +1602,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -6938,7 +6942,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11.3/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -7032,19 +7036,13 @@ Call for Papers
 
 
 <div class="d-article">
-<p>This Summer School is organized once a year in cooperation with the ICE/IEEE ITMC Conference and thus takes place at changing locations – e.g. 2016 in Trondheim (Norway), 2017 in Madeira (Portugal) and 2018 in Konstanz (Germany), in 2019 in Nice (France), and online in 2020 and 2021.</p>
-<p><strong>The NITIM 2022 Summer School (June 16th - 18th, 2022) will be a joint event between ICE/IEEE and IAMOT Communities, and it will take place in Nancy, France.</strong></p>
-<p>The NITIM Graduate Summer School is an international PhD school that focuses on topics in the areas of entrepreneurship, innovation and technology management as well as information and communication technologies. The NITIM Schools facilitate the development of doctoral research in the interdisciplinary field of Networks, Information, Technology and Innovation Management, bringing together PhD candidates and faculty members in a focused, in-depth, and constructive discussion of the candidates’ research work.</p>
-<p>Furthermore, the NITIM School is all about a community. This PhD consortia is the opportunity to meet a great group of people who is open to share their ideas, knowledge and experiences. Network members include PhD candidates, alumni, faculty and industry partners in over 10 countries around the world, representing over 20 nationalities.</p>
-<p><strong>We invite PhD candidates to submit proposals for evaluation and we invite faculty members to join us.</strong>.</p>
-<p>The core of the Summer School will be group sessions of 5 PhD candidates and 3 faculty members. If you are still at an early stage of you PhD, we are looking forward to receiving your research proposal. For those in their late stage of their PhD., you are encouraged to submit a relevant piece for your research (a paper, an overview, or a chapter of your PhD thesis).</p>
-<p>The admission to the school will be based on the fit of an extended abstract (download template here) of your proposal with the topic of the school. Afterwards, a full proposal/paper is required, which will serve as the basis for discussion and comments at NITIM Summer School.</p>
-<p>All important deadlines will be announced shortly.</p>
-<p><strong>Two and a half days of hard work, academic reflection and looking ahead. </strong></p>
-<p>Finally, we would like to present this year’s organization team: Fanny Pruvot, Diana Cardenas, Valentine Labouheure, Guillaume Pronost, Laurent Dupont, Prof. Mauricio Camargo, Prof. Stefan Klein and Prof. Roland Ortt. If you want to know more about the NITIM Community, please feel free to contact us at <a href="mailto:nitim.contact@gmail.com" class="email">nitim.contact@gmail.com</a> or visit our website <a href="https://www.nitim.org/" class="uri">https://www.nitim.org/</a></p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="figures/nitim/NITIM-SaveDate-29112021.png" width="2479" class=external /></p>
-</div>
+<p>The NITIM 2022 Summer School (<strong>June 16th – 18th, 2022</strong>) will take place in Nancy, France, just before the <a href="https://ice-iamot-2022-conference.org/">28th IEEE ICE/ITMC &amp; 31st IAMOT Conference IEEE</a>. We invite PhD candidates to submit proposals for evaluation. For those who are in the first year of their PhD program, we look forward to receiving a research proposal. For those in their late stage of their Ph.D., you are encouraged to submit a relevant piece for your research (a paper, an overview, or a chapter of your PhD thesis).</p>
+<p>The admission to the school will be based on the review of the extended abstracts (<a href="https://ice-iamot-2022-conference.org/assets/nitim/Template_Extended_Abstract-NITIM2022.docx">download template</a>) which should be sent by email to <strong><a href="mailto:nitim.contact@gmail.com" class="email">nitim.contact@gmail.com</a></strong>. The deadline for submission of the Extended Abstract is <strong>February 18th</strong> (midnight CET). Notification of acceptance of the school will be sent by <strong>March 11th</strong> in order to facilitate the early booking of flights and accommodation. The full proposal (or paper), which will form the basis of the discussion and feedback at the Summer School, is due by <strong>May 2nd</strong>.</p>
+<p>The NITIM Schools facilitate the development of doctoral research in the interdisciplinary field of Networks, Information, Technology and Innovation Management, bringing together PhD candidates and faculty members in a focused, in-depth, and constructive discussion of the candidates’ research work. The summer school is affiliated to the IEEE ICE/ITMC conference, and for 2022 will be a joint event between IEEE ICE/ITMC and IAMOT communities.</p>
+<p>The participation fee for the Summer School will be around 200 EUR Early Bird price and 300 EUR regular price (including consortium, lunches and dinners. Fees apply to the current format of the Summer School, fully onsite). For this year, the fee will include the participation for the <a href="https://ice-iamot-2022-conference.org/">28th IEEE ICE/ITMC &amp; 31st IAMOT Conference IEEE</a> for interested candidates (in which case, please note that you will also need to meet the <a href="https://ice-iamot-2022-conference.org/3-call.html">Conference’s submission requirements and key dates</a>). There will also be the possibility to apply for a fee waiver scholarship, the conditions and modalities of which will be announced soon.</p>
+<p><strong>NITIM Summer School 2022 - Important deadlines</strong> • Extended Abstract submission February 18th, 2022 • Notification of Acceptance March 11th, 2022 • Early-Bird Deadline April 8th, 2022 • Full Proposal Submission May 2nd, 2022 • Full Proposal Feedback May 30th, 2022 • 2022 Summer School in Nancy June 16th - 18th, 2022</p>
+<p>We look forward to seeing you in Nancy, France! If you have any questions, please feel free to contact us: <strong><a href="mailto:nitim.contact@gmail.com" class="email">nitim.contact@gmail.com</a></strong></p>
+<p><strong>NITIM Summer School 2022 Organisation Team</strong> Fanny Pruvot, Diana Cardenas, Valentine Labouheure, Guillaume Pronost, Dr. Laurent Dupont, Prof. Mauricio Camargo, Prof. Laure Morel, Prof. Stefan Klein and Prof. Roland Ortt</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
