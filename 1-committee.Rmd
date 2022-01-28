@@ -25,11 +25,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Conference Co-Chairs
 
-- Alain Zarli, R2M, France 
-- Marc Pallot, Arts & Métiers ParisTech, France 
-- Brendan Galbraith, IEEE TEMS and Zayed University, UAE
-- David Romero, IEEE TEMS and Tecnológico de Monterrey, Mexico
+- Yacine Rezgui, Cardiff University, United Kingdom (ICE 2021)
+- Thomas Beach, Cardiff University, United Kingdom (ICE 2021)
 
+### Review chair
+- Marc Pallot, Arts & Métiers ParisTech, France
 
 
 ## International Committee ICE / IAMOT
@@ -40,17 +40,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **ICE Community**:
 
+- Abdul Rahman Abdel Razek, Furtwangen University, Germany
 - Afonso Ferreira, DG CONNECT, European Commission, Belgium
-- Alain Bernad, École Central de Nantes, France
-- Gabriela Fernandes, University of Coimbra, Portugal
+- Alain Bernard, École Central de Nantes, France
+- Alain Zarli, R2M, France 
 - Anabela Pronto, UNINOVA – FCT/UNL, Portugal
 - Andrej Tibaut, University of Maribor, Faculty of Civil Engineering, Transportation Engineering - and Architecture, Slovenia
 - António Grilo, UNIDEMI – UNL/FCT, Portugal
+- Brendan Galbraith, IEEE TEMS and Zayed University, UAE
 - Carlos Agostinho, UNINOVA, Portugal
 - Christina Weber, SCE Entrepreneurship Centre, University of Applied Sciences, Germany
 - Claudia Buecker, CeTIM- Center for Technology and Innovation Management
+- David Romero, IEEE TEMS and Tecnológico de Monterrey, Mexico
+- Dimitris MOURTZIS,Department of Mechanical Engineering and Aeronautics,University of Patras,Greece
 - Evgeniya Gorlacheva, Bauman Moscow State Technical Univeristy, Russia
-- Fernando Luis Ferreira, UNINOVA, Portugal,
+- Fernando Luis Ferreira, UNINOVA, Portugal
+- Ferran Giones, University of Stuttgart, Germany
+- Gabriela Fernandes, University of Coimbra, Portugal
 - Gerhard Gudergan, RWTH Aachen, Germany
 - Ioan Sacala, University Politehnica of Bucharest, Romania
 - James Fleck, Technology Analysis  Strategic Management Journal/ University of Edinburgh
@@ -67,6 +73,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Ma Xiaofeng, Tongji University, China
 - Manuella Kadar, Universitatea “1 Decembrie 1918" din Alba Iulia, Romania
 - Marco Taisch, Politecnico di Milano, Italy
+- Marc König, bwcon Research GmbH
 - Maria Marques, UNINOVA, Portugal
 - Milan Zdravković, University of Niš, Serbia
 - Neil Hewitt, Director of Centre of Sustainable Technologies, Ulster University
@@ -79,10 +86,8 @@ knitr::opts_chunk$set(echo = FALSE)
 - Rodney McAdam, Ulster University Business School
 - Roland Ortt, Delft University of Technology, the Netherlands
 - Ruben Costa, UNINOVA, Portugal
-- Scott Cunningham, Delft University of Technology, Holland
+- Scott W. Cunningham, Delft University of Technology, Holland
 - Sergio Terzi, Politecnico di Milano, Italy
-- Abdul Rahman Abdel Razek, Arts & Métiers ParisTech, France
-- Marc König, bwcon Research GmbH
 
 :::
 
@@ -123,13 +128,12 @@ knitr::opts_chunk$set(echo = FALSE)
 - Prannpeya Sriwannawit, KTH Royal Institute of Technology
 - Rias Van Wyk, Technoscan, USA
 - Robert Mason, University Of Washington, WA, USA
-- Rolland Ortt, TU Delft, Netherlands
 - Ruchita Gupta, India
 - Steven Walsh, New Mexico State University – USA
 - Sung-Goo Han, The National Assembly, Republic of Korea
 - Tae-Eung Sung, Korea Institute Of Science and Technology Information, Seoul Korea
 - Tinus Pretorius, University Of Pretoria, South Africa
-- Vincent Boly, Universitѐ de Lorraine, France
+- Vincent Boly, Université de Lorraine, France
 - Yasser Hosni, Emeritus Professor University of Central Florida, IAMOT COB
 
 :::
@@ -137,3 +141,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 ## Local Organising Committee
+
+- Fabio Cruz Sanchez, Université de Lorraine, France
+- Alex Gabriel, Université de Lorraine, France
+- Giovanny Arbelaez, Université de Lorraine, France
+- ...
