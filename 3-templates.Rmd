@@ -33,11 +33,10 @@ Papers are expected to be submitted in A4 format using the ICE/IEEE ICE’2022 p
 
 **Review criteria will be :** 
 
-- (a) whether and 
-- (b) how the paper extends the existing body of knowledge in engineering, technology and innovation as its contribution, and 
-- (c) therefore its relevance for the conference topics, 
-- (d) the scientific/innovation quality of the approach and 
-- (e) the clarity of presentation. Papers will be reviewed on a rolling basis.
+- (a) The quality of the contribution to the existing body of knowledge in engineering, technology and innovation.
+- (b) The relevance of the article in regards to the conference topics. 
+- (c) The scientific/innovation quality of the approach described in the de article. 
+- (d) The redaction quality and clarity of the article.
 
 Papers will only be accepted for review on the condition that the material is original, that it has not been copyrighted, published, presented or is currently submitted for consideration elsewhere.
 
