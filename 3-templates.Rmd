@@ -35,8 +35,8 @@ Papers are expected to be submitted in A4 format using the ICE/IEEE ICE’2022 p
 
 - (a) The quality of the contribution to the existing body of knowledge in engineering, technology and innovation.
 - (b) The relevance of the article in regards to the conference topics. 
-- (c) The scientific/innovation quality of the approach described in the de article. 
-- (d) The redaction quality and clarity of the article.
+- (c) The scientific/innovation quality of the approach described in the article. 
+- (d) The redaction quality and clarity.
 
 Papers will only be accepted for review on the condition that the material is original, that it has not been copyrighted, published, presented or is currently submitted for consideration elsewhere.
 
