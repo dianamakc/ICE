@@ -1,5 +1,5 @@
 ---
-title: "Call for Paper"
+title: "Call for Papers - Workshops"
 output:
   distill::distill_article:
     includes:
@@ -22,6 +22,9 @@ This includes, but is not limited to:
 
 The review committee is available to provide feedback on abstracts and paper ideas (submit your proposal to ice-iamot-2022-conference@univ-lorraine.fr).
 
+## Workshops and Special issues
+
+If you are interested in submitting a proposal for workshop or special issue, contact the conference committee at ice-iamot-2022-conference@univ-lorraine.fr and we will provide you with the templates for proposal.
 
 ## Key dates
 

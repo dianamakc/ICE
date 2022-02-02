@@ -18,11 +18,12 @@ The registration fees for the conference are outlined below:
 
 This registration fee covers:
 
-- Publication of papers with IEEE
-- Access to proceedings after the conference 
-- Access to the videos of sessions after the conference.
+- Submission of papers to IEEE
+- Access to conference proceedings 
+- Access to the recorded sessions after the conference
+- Coffee breaks, lunchs and gala dinner
 - Use of conftool submissions systems to manage and process submissions
  
-**[Registration for ICE 2022 will be available soon.](https://www.conftool.pro/ice-iamot-2022)**
+**[Registration for ICE-IAMOT 2022 will be available soon.](https://www.conftool.pro/ice-iamot-2022)**
 
 Please Note: All authors must pay the whole conference fee, even if they want to join only for the day of their presentation.

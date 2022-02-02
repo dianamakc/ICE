@@ -41,9 +41,9 @@ navbar:
         - text: "Registration"
           href: 2-dates.html
           
-    - text: "Call for Papers"
+    - text: "Papers-Workshops"
       menu:
-        - text: "Key dates"
+        - text: "Call & key dates"
           href: 3-call.html
         - text: "Templates & Structure"
           href: 3-templates.html
