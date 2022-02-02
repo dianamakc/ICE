@@ -48,7 +48,7 @@ navbar:
         - text: "Templates & Structure"
           href: 3-templates.html
         
-    - text: "Nancy"
+    - text: "Venue"
       href: 4-nancy.html
       
 output: distill::distill_article

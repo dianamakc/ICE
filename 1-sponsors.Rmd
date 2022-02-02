@@ -10,6 +10,10 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Are you interested in sponsoring the conference ? 
+[**Sponsoring grid**](assets/2022_ICE-IAMOT_Sponsorship_Grid.pdf)
+
+
 ## Local Organizers
 
 

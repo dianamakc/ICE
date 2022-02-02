@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+## Nancy
 
 - A traditional center for science, technology and culture.
 - Capital of the Dukes of Lorraine
@@ -22,3 +23,13 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("figures/visit-nancy/Nancy-02.jpg")
 ```
 
+## Getting to Nancy
+
+To consult all the transportation options consult the following information from the Tourism Office:
+[Transportation to Nancy](https://www.nancy-tourisme.fr/en/prepare-your-stay/access-and-transport/getting-to-nancy/)
+
+
+## Accomodation
+
+There are several accommodation offers available:
+[Prepare your stay](https://www.nancy-tourisme.fr/en/prepare-your-stay/stay-in-nancy/)
