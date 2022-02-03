@@ -40,7 +40,14 @@ navbar:
           href: 2-theme.html
         - text: "Registration"
           href: 2-dates.html
-          
+    - text: "Keynote Speakers"
+      menu:
+        - text: "Prof. Joshua Pearce"
+          href: keynote-joshua-pearce.html
+        - text: "Dr.Alice de Casanove"
+          href: 
+        - text: "Ahmed Osman"
+          href:           
     - text: "Papers-Workshops"
       menu:
         - text: "Call & key dates"

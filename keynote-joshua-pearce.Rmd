@@ -1,0 +1,45 @@
+---
+title: "Joshua Pearce"
+name: "joshua-pearce"
+image: "assets/keynotes/Joshua.png"
+color: "#5A59A3"
+links:
+  - label: Google Scholar
+    url: "https://scholar.google.fr/citations?user=QZ8lPxwAAAAJ&hl=en&oi=ao"
+  - label: Twitter
+    url: "https://twitter.com/ProfPearce"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Free Appropriate Sustainability Technology (FAST) Lab
+    url: "https://www.appropedia.org/Category:FAST"
+output:
+  postcards::solana
+---
+<style>
+body {
+    background-color: #FFFFFF;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 80%, rgba(3,113,165,0.3) 20%);
+}
+</style>
+
+
+<h2> <span class="highlight">Open source appropriate technology (OSAT)</span>: <br> Finding collaborative solutions to problems in sustainability and poverty reduction </h2>
+
+ 
+Dr. Joshua M. Pearce is the John M. Thompson Chair in Information Technology and Innovation at the Thompson Centre for Engineering Leadership & Innovation.
+He holds appointments at Ivey Business School, the top ranked business school in Canada and the Department of Electrical & Computer Engineering at Western University in Canada, a top 1% global university. 
+He runs the [Free Appropriate Sustainability Technology](https://www.appropedia.org/Category:FAST) research group. 
+
+His research concentrates on the use of open source appropriate technology (OSAT) to find collaborative solutions to problems in sustainability and to reduce poverty. His research spans areas of engineering of solar photovoltaic technology, open hardware, and distributed recycling and additive manufacturing (DRAM) using RepRap 3-D printing, but also includes policy and economics. 
+He is a laureat of the Prof@Lorraine program. Permanent visiting professor at the ERPI Laboratory.
+
+
+
+```{r, out.width='20%', echo=FALSE}
+knitr::include_graphics("assets/western-university.svg")
+```
+
+
