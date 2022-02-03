@@ -8,8 +8,8 @@ links:
     url: "https://scholar.google.fr/citations?user=QZ8lPxwAAAAJ&hl=en&oi=ao"
   - label: Twitter
     url: "https://twitter.com/ProfPearce"
-  - label: GitHub
-    url: "https://github.com/"
+  - label: Open Science
+    url: "https://osf.io/6psy8/"
   - label: Free Appropriate Sustainability Technology (FAST) Lab
     url: "https://www.appropedia.org/Category:FAST"
 output:
