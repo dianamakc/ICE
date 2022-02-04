@@ -29,7 +29,7 @@ The paper should clearly describe its purpose and relevance, a reference to exis
 
 <!-- Papers are expected to show the following structure: (i) Introduction, (ii) Relation to existing theories and work, (iii) Research/Technology/Innovation approach, (iv) Findings, (v) Conclusion, and (vi) References. -->
 
-Papers are expected to be submitted in A4 format using the ICE/IEEE ICE’2022 paper template that further contains all relevant explanations about papers’ structure and layout as well as needed copyright information.
+Papers are expected to be submitted in A4 format using the IEEE ICE-IAMOT 2022 paper template that further contains all relevant explanations about papers’ structure and layout as well as needed copyright information.
 
 **Review criteria will be :** 
 
@@ -40,11 +40,11 @@ Papers are expected to be submitted in A4 format using the ICE/IEEE ICE’2022 p
 
 Papers will only be accepted for review on the condition that the material is original, that it has not been copyrighted, published, presented or is currently submitted for consideration elsewhere.
 
-Please see our IEEE ICE’2022 Author’s Kit for detailed instructions about all relevant dates, correct submission of needed documents, and Conference Proceedings.
+Please see our IEEE ICE-IAMOT 2022 Author’s Kit for detailed instructions about all relevant dates, correct submission of needed documents, and Conference Proceedings.
 
 Based on the recommendations of the reviewers, the editorial committee will allocate submissions for oral presentation of papers and/or for poster presentations. Speakers will have 20 minutes for presentation and discussion of their paper. The official language of the conference is English.
 
-The ICE/IEEE ITMC 2022 conference will submit one paper per presenting author only. All accepted, compliant and plagiarism-free papers will be submitted for publication in the digital conference proceedings to be available via IEEE Xplore® (with ISBN Number and DOI for the paper), only if at least one author pays a full registration fee before the deadline.
+The ICE-IAMOT 2022 conference will submit one paper per presenting author only. All accepted, compliant and plagiarism-free papers will be submitted for publication in the digital conference proceedings to be available via IEEE Xplore® (with ISBN Number and DOI for the paper), only if at least one author pays a full registration fee before the deadline.
 
 All Abstracting and Indexing (A&I) providers can be found here: http://ieeeauthorcenter.ieee.org/when-your-article-is-published/abstracting-indexing-ai-databases/ and include amongst others Scopus and Web of Science.
 

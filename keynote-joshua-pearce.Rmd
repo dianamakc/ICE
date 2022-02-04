@@ -13,8 +13,9 @@ links:
   - label: Free Appropriate Sustainability Technology (FAST) Lab
     url: "https://www.appropedia.org/Category:FAST"
 output:
-  postcards::solana
+    postcards::solana
 ---
+
 <style>
 body {
     background-color: #FFFFFF;
