@@ -1,0 +1,48 @@
+---
+title: "Ahmed Osman"
+name: "Ahmed Osman"
+image: "figures/keyspeakers/ahmed-osman.png"
+color: "#5A59A3"
+links:
+  - label: PNNL
+    url: "https://www.pnnl.gov/people/osman-ahmed"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/dr-osman-ahmed/"
+
+  # - label: Open Science
+  #   url: "https://osf.io/6psy8/"
+  # - label: Free Appropriate Sustainability Technology (FAST) Lab
+  #   url: "https://www.appropedia.org/Category:FAST"
+output:
+    postcards::solana
+---
+
+<style>
+body {
+    background-color: #FFFFFF;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 80%, rgba(3,113,165,0.3) 20%);
+}
+</style>
+
+
+## <span class="highlight">Digitalization, De-carbonization, and Innovation”</span>: What we need for a Sustainable Planet
+
+
+Dr. Osman is a Principal Technical Advisor at Pacific Northwest National Laboratory (PNNL), a national research laboratory operated by the Department of Energy, USA. 
+Prior to PNNL, he served at Siemens for about 28 years assuming various technical and leadership positions
+
+For more than 35 years, Dr. Ahmed has created innovation wealth- both intellectual and capital- and demonstrated my ability as a successful strategic and technical leader.
+For last 25+ years, he has led innovation that spans complete digital ecosystem using IoT, predictive analytics, AI/ML solutions, and novel distributed edge intelligence across many energy sectors such as buildings, smart cities and infrastructure, smart grid, manufacturing, mobility, and hydropower plants. 
+
+
+He is the President of IAMOT community.
+
+
+```{r, out.width='24%', echo=FALSE}
+knitr::include_graphics("figures/logos/Iamot.png")
+```
+
+

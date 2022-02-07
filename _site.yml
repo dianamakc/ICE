@@ -46,8 +46,8 @@ navbar:
           href: keynote-joshua-pearce.html
         - text: "Dr.Alice de Casanove"
           href: keynote-alice-de-casanove.html
-        # - text: "Ahmed Osman"
-        #   href:           
+        - text: "Ahmed Osman"
+          href: keynote-ahmed-osman.html
     - text: "Papers-Workshops"
       menu:
         - text: "Call & key dates"
