@@ -1,0 +1,48 @@
+---
+title: "Alice de Casanove"
+name: "Alice de Casanove"
+image: "assets/keynotes/alice.jpg"
+color: "#5A59A3"
+links:
+  - label: ISO
+    url: "https://committee.iso.org/home/tc279"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/alice-de-casanove-a59b315/"
+
+  # - label: Open Science
+  #   url: "https://osf.io/6psy8/"
+  # - label: Free Appropriate Sustainability Technology (FAST) Lab
+  #   url: "https://www.appropedia.org/Category:FAST"
+output:
+    postcards::solana
+---
+
+<style>
+body {
+    background-color: #FFFFFF;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 80%, rgba(3,113,165,0.3) 20%);
+}
+</style>
+
+
+## Return of experience regarding <span class="highlight">Innovation management ISO 56000 series</span>: Implementation in a large organization
+
+ 
+Dr. Casanove is Director of Culture Evolution & intrapreneurship in Airbus North America.
+She is in charge of innovation competencies and learning, developing an innovation culture and deploying the relevant tools and methods to accelerate future businesses. 
+
+She plays a pivoting role in the publication of the ISO referential on good practices in innovation management (ISO 56000 series).
+Indeed since 2013, she is the ISO chair of the international standardisation committee on Innovation Management (ISO 50500 series) gathering 50+ countries in close coordination with WTO, OECD, WIPO and World Bank.
+
+She is an Associated Researcher at the ERPI Lab
+
+
+
+```{r, out.width='30%', echo=FALSE}
+knitr::include_graphics("figures/keyspeakers/alice-logos.png")
+```
+
+

@@ -44,8 +44,8 @@ navbar:
       menu:
         - text: "Prof. Joshua Pearce"
           href: keynote-joshua-pearce.html
-        # - text: "Dr.Alice de Casanove"
-        #   href: 
+        - text: "Dr.Alice de Casanove"
+          href: keynote-alice-de-casanove.html
         # - text: "Ahmed Osman"
         #   href:           
     - text: "Papers-Workshops"
