@@ -30,7 +30,7 @@ If you are interested in submitting a proposal for a workshop or special issue, 
 
 ::: {.infobox .goal data-latex="{.goal}"}
 
-- Full paper submission:  *7 February 2022*
+- Full paper submission: ~~7 February 2022~~  **7 March 2022**
 - Poster submission: **March 2022**
 - Full paper and poster notification of acceptance:  **31st March 2022**
 - Print-ready IEEE-PDF express-compliant-final papers, copy-right form:  **30th April 2022**
