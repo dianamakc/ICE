@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(here)
 library(distill)
 library(tidyverse)
+
 #create_post("Post-2", draft = TRUE)
 
 
@@ -173,9 +174,9 @@ library(kableExtra)
 important <- 
   tribble(
     ~Description, ~Dates, 
-    "Full paper submission",  "7 February 2022",
+    "Full paper submission",  "7 March 2022 (Extended)",
     
-    "Poster submission", "March 2022",
+   # "Poster submission", "March 2022",
     
     "Full paper and poster notification of acceptance*", "31st March 2022",
     
