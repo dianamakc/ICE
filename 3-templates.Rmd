@@ -34,7 +34,7 @@ Papers are expected to be submitted in A4 format using the IEEE ICE-IAMOT 2022 p
 ## Reviewing process
 
 
-```{r echo=FALSE, "class=external", layout="l-body", out.extra="class=external"}
+```{r echo=FALSE, "class=external", layout="l-body", out.extra="class=external", fig.align='center'}
 knitr::include_graphics("figures/review.png")
 ```
 
