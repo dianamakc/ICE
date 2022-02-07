@@ -31,6 +31,14 @@ The paper should clearly describe its purpose and relevance, a reference to exis
 
 Papers are expected to be submitted in A4 format using the IEEE ICE-IAMOT 2022 paper template that further contains all relevant explanations about papers’ structure and layout as well as needed copyright information.
 
+## Reviewing process
+
+
+```{r echo=FALSE, "class=external", layout="l-body", out.extra="class=external"}
+knitr::include_graphics("figures/review.png")
+```
+
+
 **Review criteria will be :** 
 
 - (a) The quality of the contribution to the existing body of knowledge in engineering, technology and innovation.
