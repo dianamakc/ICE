@@ -25,7 +25,7 @@ Resilience research has mainly focussed on the capacity of a socio-technical sys
 -	Technology Foresight and Forecasting
 -	Service Design and Engineering
 -	Industry 4.0: Digital Innovation management and applications of AI
--	Responsible research and innovation
+-	[Responsible research and innovation (Special session)](assets/RRI.pdf)
 -	Innovation on Education and Learning
 -	Human, Socio-Economic and Culture Issues
 -	Green Tech and New business model for Sustainability and Resilience
