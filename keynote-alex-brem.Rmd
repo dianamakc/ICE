@@ -1,0 +1,41 @@
+---
+title: "Alexander Brem"
+name: "Alexander Brem"
+image: "assets/keynotes/alex.png"
+color: "#5A59A3"
+links:
+  - label: Google Scholar
+    url: "https://scholar.google.fr/citations?user=ZmfIL_8AAAAJ&hl=en&oi=ao"
+  - label: Uni Stuttgart
+    url: "https://www.eni.uni-stuttgart.de/en/institute/team/Brem-00002/"
+
+output:
+    postcards::solana
+---
+
+<style>
+body {
+    background-color: #FFFFFF;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 80%, rgba(3,113,165,0.3) 20%);
+}
+</style>
+
+
+<h2> <span class="highlight">Frugal Innovation:</span>: <br> Constraint-based thinking as a solution for sustainability?</h2>
+
+Alexander Brem is a CCSR International Research Associate at DeMontfort University (UK) and a visiting professor at the EADA Business School in Barcelona (Spain) and Tsinghua University (China). 
+
+From December 2016 to December 2019, Alexander Brem was holding the Chair of Technology Management at FAU. Since January 2020, he is Endowed Chaired Professor of Entrepreneurship in Technology and Digitalization, funded through the Daimler Fund of the Stifterverband, and Institute Director at the University of Stuttgart. This professorship is also a substantial part of the Cyber Valley Baden-Württemberg initiative.
+
+In 2017, Alexander Brem has been appointed Honorary Professor at SDU. In 2018, an appointment as an IEEE Senior Member followed. His work is acknowledged with being listed as one of the most research-intensive business and management professors in German speaking countries.
+
+
+
+```{r, out.width='20%', echo=FALSE}
+knitr::include_graphics("assets/uni-stt.svg")
+```
+
+
