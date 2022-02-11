@@ -50,7 +50,6 @@ knitr::opts_chunk$set(echo = FALSE)
 - Brendan Galbraith, IEEE TEMS and Zayed University, UAE
 - Carlos Agostinho, UNINOVA, Portugal
 - Christina Weber, SCE Entrepreneurship Centre, University of Applied Sciences, Germany
-- Claudia Buecker, CeTIM- Center for Technology and Innovation Management
 - David Romero, IEEE TEMS and Tecnológico de Monterrey, Mexico
 - Dimitris MOURTZIS,Department of Mechanical Engineering and Aeronautics,University of Patras,Greece
 - Evgeniya Gorlacheva, Bauman Moscow State Technical Univeristy, Russia
