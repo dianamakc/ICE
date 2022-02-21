@@ -30,6 +30,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Review chair
 - Marc Pallot, Arts & Métiers ParisTech, France
+- Giovanny Arbelaez, Université de Lorraine, France
 
 
 ## International Committee ICE / IAMOT
@@ -142,6 +143,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Local Organising Committee
 
 - Fabio Cruz Sanchez, Université de Lorraine, France
+- Manon Enjolras, Université de Lorraine, France
 - Alex Gabriel, Université de Lorraine, France
-- Giovanny Arbelaez, Université de Lorraine, France
+- Fedoua Kasmi, Université de Lorraine, France
+- 
 - ...
