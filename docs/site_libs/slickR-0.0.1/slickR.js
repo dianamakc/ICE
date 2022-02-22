@@ -18,13 +18,11 @@ HTMLWidgets.widget({
 
           if(typeof(Shiny) !== "undefined"){
             
-            x.forEach(function(y){
-              destroyDiv(y);
-            })
+            destroyDiv(x[0]);
             
           }
           
-          x.forEach(function(val){
+            x.forEach(function(val){
                 var wrapper = document.createElement('div');
                 wrapper.innerHTML = val.obj; 
                 var divObj = wrapper.firstChild;
@@ -39,10 +37,9 @@ HTMLWidgets.widget({
             });
           
           if(typeof(Shiny) !== "undefined"){
-            x.forEach(function(val){
-              thisDiv = $("." + val.divName);
-              toshiny(thisDiv);  
-            });
+                    
+            toshiny(thisDiv);
+                    
           }
 
           /*
@@ -143,11 +140,9 @@ HTMLWidgets.widget({
             
             var obj = document.querySelectorAll('[class^="' + basename + '"]');
             
+            
             obj.forEach(function(val){
-              parent_obj = val.parentNode.parentNode.querySelectorAll('[class$="slick-slider"]');
-                parent_obj.forEach(function(val){
-                  $("." + val.classList[0]).detach();
-                })
+              $("." + val.classList[0]).detach();
             });
             
           }
@@ -211,13 +206,13 @@ HTMLWidgets.widget({
           }
               
           function toshiny_arrow(thisDiv){
-                thisDiv.on('setPosition', function(event, slick, currentSlide, nextSlide){
+                thisDiv.on("afterChange",function(event, slick, currentSlide, nextSlide){
                   
-                      totIdx    = thisDiv.slick('getSlick').slideCount;
-                      centerIdx = thisDiv.slick('slickCurrentSlide') + 1;
+                      totIdx    = thisDiv.slick("getSlick").slideCount;
+                      centerIdx = thisDiv.slick('slickCurrentSlide') + 1 ;
                       sliderId  = $(thisDiv).attr('class').split(' ')[0];
                       
-                      Shiny.setInputValue(el.id + "_current",{
+                      Shiny.onInputChange(el.id + "_current",{
 
                           ".center"  : centerIdx,
                           ".total"   : totIdx,
@@ -231,9 +226,9 @@ HTMLWidgets.widget({
           function toshiny_slider(thisDiv){
                 
                     thisDiv.on('click','.slick-slide', function(e){
-                      centerIdx = thisDiv.slick('slickCurrentSlide') + 1;
+                      centerIdx = thisDiv.slick('slickCurrentSlide') + 1 ;
                       clickIdx  = $(this).data('slickIndex') + 1 ;
-                      totIdx    = thisDiv.slick('getSlick').slideCount;
+                      totIdx    = thisDiv.slick("getSlick").slideCount;
                       
                       absclickIdx = clickIdx;
                       sliderId  = $(thisDiv).attr('class').split(' ')[0];
@@ -242,7 +237,7 @@ HTMLWidgets.widget({
                       if( clickIdx > totIdx) absclickIdx = clickIdx - totIdx;
                       if( clickIdx < 1 ) absclickIdx = totIdx + clickIdx;
 
-                      Shiny.setInputValue(el.id + "_current",{
+                      Shiny.onInputChange(el.id + "_current",{
                           ".center"           : centerIdx,
                           ".total"            : totIdx,
                           ".slider"           : sliderId,
