@@ -18,7 +18,7 @@ The paper should clearly describe its purpose and relevance, a reference to exis
 
 - [**Word template for the submission here**](assets/paper-template/conference-template-a4-2022.docx)
 
-- [**Submission kit here**](assets/paper-template/2022_ICE_IEEE_Authors Kit.docx)
+<!-- - [**Submission kit here**](assets/paper-template/2022_ICE_IEEE_Authors Kit.docx) -->
 
 - [**LaTeX template**](https://www.ieee.org/conferences/publishing/templates.html)
 
