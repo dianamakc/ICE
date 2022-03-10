@@ -107,7 +107,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Eduardo Vasconcellos, University of Sào Paulo, Brazil
 - Essam Radwan, University of Central Florida
 - Fred Betz, Fredrick Betz, Former NSF, Washington State
-- Fuijo Niwa, Jan-Harm C. Pretorius,  University of Pretoria, South Africa
+- Jan-Harm C. Pretorius, University of Johannesburg, South Africa
 - Jeff Butler, Manchester Bussines School – UK
 - Jeffrey A. Baetz, IBM
 - Jim Sphorer, IBM

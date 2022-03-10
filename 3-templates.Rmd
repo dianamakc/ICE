@@ -9,7 +9,7 @@ output:
 
 ## Templates
 
-Papers will be selected through a double-blind refereeing process based on the submitted full papers.
+Papers will be selected through a **double-blind**^[This means that the authors name should not appear in the submitted document for the first review phase nor in the submitted name file.] refereeing process based on the submitted full papers.
 **Final papers should have no more than 7.000 words (max. 9 pages all inclusive) and must be in the correct format.**
 The paper should clearly describe its purpose and relevance, a reference to existing theories and related works, research methods used and major results in engineering, technology and innovation.
 
@@ -18,7 +18,7 @@ The paper should clearly describe its purpose and relevance, a reference to exis
 
 - [**Word template for the submission here**](assets/paper-template/conference-template-a4-2022.docx)
 
-- [**Submission kit here**](assets/paper-template/2022_ICE_IEEE_Authors Kit.docx)
+<!-- - [**Submission kit here**](assets/paper-template/2022_ICE_IEEE_Authors Kit.docx) -->
 
 - [**LaTeX template**](https://www.ieee.org/conferences/publishing/templates.html)
 
@@ -29,7 +29,7 @@ The paper should clearly describe its purpose and relevance, a reference to exis
 
 <!-- Papers are expected to show the following structure: (i) Introduction, (ii) Relation to existing theories and work, (iii) Research/Technology/Innovation approach, (iv) Findings, (v) Conclusion, and (vi) References. -->
 
-Papers are expected to be submitted in A4 format using the IEEE ICE-IAMOT 2022 paper template that further contains all relevant explanations about papers’ structure and layout as well as needed copyright information.
+Papers are expected to be submitted in **A4 format using the IEEE ICE-IAMOT 2022 paper template** that further contains all relevant explanations about papers’ structure and layout as well as needed copyright information.
 
 ## Reviewing process
 
