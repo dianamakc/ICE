@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The registration fees for the conference are outlined below:
+The registration fees for the conference are outlined below
 
 <!-- +---------------------------------------------------------------------------------+----------+-------+ -->
 <!-- |                                                                                 | USD      | EUROS | -->
