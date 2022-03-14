@@ -39,24 +39,24 @@ the candidates' research work. The summer school is affiliated to the IEEE ICE/I
 conference, and for 2022 will be a joint event between IEEE ICE/ITMC and IAMOT
 communities.
 
-The participation fee for the Summer School will be around 200 EUR Early Bird price and
-300 EUR regular price (including consortium, lunches and dinners. Fees apply to the
-current format of the Summer School, fully onsite). For this year, the fee will include
-the participation for the [28th IEEE ICE/ITMC & 31st IAMOT Conference
-IEEE](https://ice-iamot-2022-conference.org/) for interested candidates (in which case,
-please note that you will also need to meet the [Conference's submission requirements and
-key dates](https://ice-iamot-2022-conference.org/3-call.html)). There will also be the
-possibility to apply for a fee waiver scholarship, the conditions and modalities of which
-will be announced soon.
-
 | **NITIM Summer School 2022**    | **Important deadlines**                    |
 |---------------------------------|--------------------------------------------|
 | Extended Abstract submission    | ~~February 18th, 2022~~ **March 3rd, 2022**|
-| Notification of Acceptance      | March 11th, 2022                           |
+| Notification of Acceptance      | ~~March 11th, 2022~~                       |
 | Early-Bird Deadline             | April 8th, 2022                            |
 | Full Proposal Submission        | May 2nd, 2022                              |
 | Full Proposal Feedback          | May 30th, 2022                             |
 | **2022 Summer School in Nancy** | **June 16th - 18th, 2022**                 |
+
+
+| **NITIM Summer School 2022 - Registration fees:**            |              |
+|--------------------------------------------------------------|--------------|
+| Early bird NITIM Summer School – PhD Candidates              | 200€         |
+| Combi-ticket (NITIM-ICE/IAMOT conference) – PhD Candidates   | 300€         |
+| Late registration NITIM Summer School – PhD Candidates       | 300€         |
+| Combi-ticket (NITIM-ICE/IAMOT conference) – Faculty Members  | 550€         |
+
+Fees include lunches, coffee breaks, and social activities including dinner. Fees apply to the current format of the Summer School, fully onsite
 
 We look forward to seeing you in Nancy, France! If you have any questions, please feel
 free to contact us: [**nitim.contact\@gmail.com**](mailto:nitim.contact@gmail.com){.email}
