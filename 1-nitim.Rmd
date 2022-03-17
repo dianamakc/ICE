@@ -27,10 +27,11 @@ The admission to the school will be based on the review of the extended abstract
 template](https://ice-iamot-2022-conference.org/assets/nitim/Template_Extended_Abstract-NITIM2022.docx))
 which should be sent by email to
 [**nitim.contact\@gmail.com**](mailto:nitim.contact@gmail.com){.email}. The deadline for
-submission of the Extended Abstract is ~~February 18th~~**March 3rd** (midnight CET). Notification of
-acceptance of the school will be sent by **March 11th** in order to facilitate the early
-booking of flights and accommodation. The full proposal (or paper), which will form the
-basis of the discussion and feedback at the Summer School, is due by **May 2nd**.
+submission of the Extended Abstract is ~~February 18th~~**March 3rd** (midnight CET).
+Notification of acceptance of the school will be sent by **March 11th** in order to
+facilitate the early booking of flights and accommodation. The full proposal (or paper),
+which will form the basis of the discussion and feedback at the Summer School, is due by
+**May 2nd**.
 
 The NITIM Schools facilitate the development of doctoral research in the interdisciplinary
 field of Networks, Information, Technology and Innovation Management, bringing together
@@ -39,24 +40,24 @@ the candidates' research work. The summer school is affiliated to the IEEE ICE/I
 conference, and for 2022 will be a joint event between IEEE ICE/ITMC and IAMOT
 communities.
 
-| **NITIM Summer School 2022**    | **Important deadlines**                    |
-|---------------------------------|--------------------------------------------|
-| Extended Abstract submission    | ~~February 18th, 2022~~ **March 3rd, 2022**|
-| Notification of Acceptance      | ~~March 11th, 2022~~                       |
-| Early-Bird Deadline             | April 8th, 2022                            |
-| Full Proposal Submission        | May 2nd, 2022                              |
-| Full Proposal Feedback          | May 30th, 2022                             |
-| **2022 Summer School in Nancy** | **June 16th - 18th, 2022**                 |
+| **NITIM Summer School 2022**    | **Important deadlines**                     |
+|---------------------------------|---------------------------------------------|
+| Extended Abstract submission    | ~~February 18th, 2022~~ **March 3rd, 2022** |
+| Notification of Acceptance      | ~~March 11th, 2022~~                        |
+| Early-Bird Deadline             | April 8th, 2022                             |
+| Full Proposal Submission        | May 2nd, 2022                               |
+| Full Proposal Feedback          | May 30th, 2022                              |
+| **2022 Summer School in Nancy** | **June 16th - 18th, 2022**                  |
 
+| **NITIM Summer School 2022 - Registration fees:**            |      |
+|--------------------------------------------------------------|------|
+| Early bird NITIM Summer School -- PhD Candidates             | 200€ |
+| Combi-ticket (NITIM-ICE/IAMOT conference) -- PhD Candidates  | 300€ |
+| Late registration NITIM Summer School -- PhD Candidates      | 300€ |
+| Combi-ticket (NITIM-ICE/IAMOT conference) -- Faculty Members | 550€ |
 
-| **NITIM Summer School 2022 - Registration fees:**            |              |
-|--------------------------------------------------------------|--------------|
-| Early bird NITIM Summer School – PhD Candidates              | 200€         |
-| Combi-ticket (NITIM-ICE/IAMOT conference) – PhD Candidates   | 300€         |
-| Late registration NITIM Summer School – PhD Candidates       | 300€         |
-| Combi-ticket (NITIM-ICE/IAMOT conference) – Faculty Members  | 550€         |
-
-Fees include lunches, coffee breaks, and social activities including dinner. Fees apply to the current format of the Summer School, fully onsite
+Fees include lunches, coffee breaks, and social activities including dinner. Fees apply to
+the current format of the Summer School, fully onsite
 
 We look forward to seeing you in Nancy, France! If you have any questions, please feel
 free to contact us: [**nitim.contact\@gmail.com**](mailto:nitim.contact@gmail.com){.email}

@@ -1,7 +1,7 @@
 ---
 title: "Alexander Brem"
 name: "Alexander Brem"
-image: "assets/keynotes/alex.png"
+image: "assets/keynotes/alex.jpg"
 color: "#5A59A3"
 links:
   - label: Google Scholar
