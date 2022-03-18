@@ -38,7 +38,7 @@ navbar:
       menu:
         - text: "Conference Theme"
           href: 2-theme.html
-        - text: "Registration"
+        - text: "Registration & Fees"
           href: 2-dates.html
     - text: "Keynote Speakers"
       menu:

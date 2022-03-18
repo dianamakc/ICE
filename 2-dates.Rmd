@@ -1,5 +1,5 @@
 ---
-title: "Registration"
+title: "Registration & Fees"
 output:
   distill::distill_article:
     includes:
@@ -12,29 +12,24 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The registration fees for the conference are outlined below
 
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- |                                                                                 | USD      | EUROS | -->
-<!-- +=================================================================================+==========+=======+ -->
-<!-- | Combi ticket full fees faculty [NITIM + ICE-IAMOT]                              | 397      | 350   | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- | **[Early Bird]** Full joint conferences fees on site [ICE-IAMOT] before mid-May | 510      | 450   | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- | Full joint conferences fees on site [ICE-IAMOT] - after mid-May                 | 680      | 600   | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- | Student Fees on line [ICE-IAMOT]                                                | 147      | 130   | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- | Fees joint conferences on line [ICE-IAMOT]                                      | 284      | 250   | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- | Combi ticket student fees on site [NITIM + ICE-IAMOT]                           | 227      | 200   | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- | Student fees on site [ICE-IAMOT]                                                | 284      | 250   | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
-<!-- | Extra ticket gala diner                                                         | 57       | 50    | -->
-<!-- +---------------------------------------------------------------------------------+----------+-------+ -->
+| **Fees ICE-IAMOT**                                   | Euro  | Dollar |
+|------------------------------------------------------|-------|--------|
+| Early Bird fees on site (Nancy, France) until 23 May | € 450 | \$ 495 |
+| Full fees on site from 24 May                        | € 600 | \$ 660 |
+| Fees On-line                                         | € 250 | \$ 275 |
 
-<!-- (early bird) until 30/5/2022 – £XX  – €XX** -->
+| **Students Fees ICE-IAMOT**                           | Euro  | Dollar |
+|-------------------------------------------------------|-------|--------|
+| Student fees on site (Nancy, France) **until 23 May** | € 250 | \$ 275 |
+| Student Full fees on site **from 24 May**             | € 600 | \$ 660 |
+| Student On-line                                       | € 130 | \$ 143 |
 
-<!-- - **Registration Fee (regular) £XX- €XX** -->
+| **Extra ticket Gala Dinner [limited number of places]** | € 130 | \$ 143 |
+|---------------------------------------------------------|-------|--------|
+
+| NITIM PhD Summer School                                                                            |
+|----------------------------------------------------------------------------------------------------|
+| [NITIM fees or combi-ticket NITIM / ICE-IAMOT](https://ice-iamot-2022-conference.org/1-nitim.html) |
 
 This registration fee covers:
 
