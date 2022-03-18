@@ -13,19 +13,19 @@ knitr::opts_chunk$set(echo = FALSE)
 The registration fees for the conference are outlined below
 
 | **Fees ICE-IAMOT**                                       | Euro  | Dollar\* |
-|---------------------------------------------|-----------|----------|
+|----------------------------------------------------------|-------|----------|
 | Early Bird fees on site (Nancy, France) **until 23 May** | € 450 | \$ 495   |
 | Full fees on site **from 24 May**                        | € 600 | \$ 660   |
 | Fees On-line                                             | € 250 | \$ 275   |
 
-| **Students Fees ICE-IAMOT**                           | Euro  | Dollar\* |
-|-------------------------------------------------------|-------|----------|
-| Student fees on site (Nancy, France) **until 23 May** | € 250 | \$ 275   |
-| Student Full fees on site **from 24 May**             | € 600 | \$ 660   |
-| Student On-line                                       | € 130 | \$ 143   |
+| **Students Fees ICE-IAMOT**                              | Euro  | Dollar\* |
+|----------------------------------------------------------|-------|----------|
+| Student fees on site (Nancy, France) **until 23 May**    | € 250 | \$ 275   |
+| Student Full fees on site **from 24 May**                | € 600 | \$ 660   |
+| Student On-line                                          | € 130 | \$ 143   |
 
-| **Extra ticket Gala Dinner [limited number of places]** | € 50 | \$ 55 |
-|---------------------------------------------------------|------|-------|
+| **Extra ticket Gala Dinner [limited number of places]**  | € 50 | \$ 55 |
+|----------------------------------------------------------|------|-------|
 
 | NITIM PhD Summer School                                                                            |
 |-----------------------------------------------------------------|
