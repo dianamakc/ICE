@@ -223,6 +223,9 @@ d-article a {
   }
 }
 
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 95%, rgba(218,50,48,100) 10%);
+}
 
 /*d-article a:link {
   background-color: rgba(37, 69, 146, 0.1);

@@ -22,9 +22,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 80%, rgba(3,113,165,0.3) 20%);
-}
 </style>
 
 

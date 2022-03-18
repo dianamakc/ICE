@@ -18,13 +18,11 @@ body {
     background-color: #FFFFFF;
 }
 
-.highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 80%, rgba(3,113,165,0.3) 20%);
-}
+
 </style>
 
 
-<h2> <span class="highlight">Frugal Innovation:</span>: <br> Constraint-based thinking as a solution for sustainability?</h2>
+<h2> <span class="highlight">Frugal Innovation:</span> <br> Constraint-based thinking as a solution for sustainability?</h2>
 
 Alexander Brem is a CCSR International Research Associate at DeMontfort University (UK) and a visiting professor at the EADA Business School in Barcelona (Spain) and Tsinghua University (China). 
 
