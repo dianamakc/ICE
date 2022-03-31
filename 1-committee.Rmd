@@ -88,6 +88,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Ruben Costa, UNINOVA, Portugal
 - Scott W. Cunningham, Delft University of Technology, Holland
 - Sergio Terzi, Politecnico di Milano, Italy
+- Gregory Zacharewicz, IMT Mines Ales, France
 
 :::
 
