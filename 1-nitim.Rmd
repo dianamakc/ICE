@@ -44,7 +44,7 @@ communities.
 |---------------------------------|---------------------------------------------|
 | Extended Abstract submission    | ~~February 18th, 2022~~ **March 3rd, 2022** |
 | Notification of Acceptance      | ~~March 11th, 2022~~                        |
-| Early-Bird Deadline             | April 8th, 2022                             |
+| Early-Bird Deadline             | April 27th, 2022                             |
 | Full Proposal Submission        | May 2nd, 2022                               |
 | Full Proposal Feedback          | May 30th, 2022                              |
 | **2022 Summer School in Nancy** | **June 16th - 18th, 2022**                  |
@@ -57,8 +57,8 @@ communities.
 
 | **Only NITIM Summer School registration fees:**                         |      |
 |-------------------------------------------------------------------------|------|
-| Early bird (until April 8th) -- PhD Candidates & Faculty Members        | 200€ |
-| Late registration (after April 8th) -- PhD Candidates & Faculty Members | 300€ |
+| Early bird (until April 27th) -- PhD Candidates & Faculty Members        | 200€ |
+| Late registration (after April 27th) -- PhD Candidates & Faculty Members | 300€ |
 
 | **Combi-ticket registration fees (NITIM & ICE/IAMOT conference):**    |      |
 |-----------------------------------------------------------------------|------|
