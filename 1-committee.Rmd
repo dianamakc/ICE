@@ -27,6 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Yacine Rezgui, Cardiff University, United Kingdom (ICE 2021)
 - Thomas Beach, Cardiff University, United Kingdom (ICE 2021)
+- James Fleck, University of Edinburgh (ICE 2023)
 
 ### Review chair
 - Marc Pallot, Arts & Métiers ParisTech, France
