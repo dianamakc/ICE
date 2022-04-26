@@ -180,7 +180,7 @@ important <-
     
     "Full paper and poster notification of acceptance*", "15th April 2022 (Extended)",
     
-    "Print-ready IEEE-PDF express-compliant-final papers, copy-right form", "30th April 2022"
+    "Print-ready IEEE-PDF express-compliant-final papers, copy-right form", "15 May 2022"
   )
 
 important %>%
