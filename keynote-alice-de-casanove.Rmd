@@ -31,8 +31,8 @@ body {
 Dr. Casanove is Director of Culture Evolution & intrapreneurship in Airbus North America.
 She is in charge of innovation competencies and learning, developing an innovation culture and deploying the relevant tools and methods to accelerate future businesses. 
 
-<!-- She plays a pivoting role in the publication of the ISO referential on good practices in innovation management (ISO 56000 series). -->
-<!-- Indeed since 2013, she is the ISO chair of the international standardisation committee on Innovation Management (ISO 50500 series) gathering 50+ countries in close coordination with WTO, OECD, WIPO and World Bank. -->
+She plays a pivoting role in the publication of the ISO referential on good practices in innovation management (ISO 56000 series).
+Between 2013 and 2022, she was the ISO chair of the international standardisation committee on Innovation Management gathering 50+ countries in close coordination with WTO, OECD, WIPO and World Bank.
 
 She is an Associated Researcher at the ERPI Lab
 
