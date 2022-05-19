@@ -1,0 +1,23 @@
+---
+title: "Programme of the Conference"
+output:
+  distill::distill_article:
+    includes:
+        in_header: assets/dates.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+**[`r format(Sys.time(), '%d %B, %Y')`]** We presente a tentative programme..
+But, we are working in the construction of the final one:
+
+
+
+```{r, layout="l-page", out.width='100%'}
+knitr::include_graphics("figures/programme/2022-05-12.png")
+```
+
+

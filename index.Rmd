@@ -16,9 +16,6 @@ library(tidyverse)
 
 #create_post("Post-2", draft = TRUE)
 
-
-
-
 library(bs4cards) # To install before
 # install.packages("devtools")
 #devtools::install_github("djnavarro/bs4cards")
