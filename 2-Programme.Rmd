@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-**[`r format(Sys.time(), '%d %B, %Y')`]** We presente a tentative programme..
+**[`r format(Sys.time(), '%d %B, %Y')`]** We present a tentative programme.
 But, we are working in the construction of the final one:
 
 
